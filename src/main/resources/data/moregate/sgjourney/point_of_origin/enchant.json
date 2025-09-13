@@ -1,0 +1,5 @@
+{
+	"name": "point_of_origin.moregate.enchant",
+	"texture": "moregate:points_of_origin/enchant.png",
+	"generates_randomly": false
+}

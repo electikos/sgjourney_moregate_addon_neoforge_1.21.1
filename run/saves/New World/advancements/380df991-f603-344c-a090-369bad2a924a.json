@@ -1,0 +1,263 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-25 20:26:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2025-07-25 20:30:04 -0400",
+      "minecraft:jungle": "2025-07-25 20:26:36 -0400",
+      "minecraft:river": "2025-07-26 16:41:44 -0400"
+    },
+    "done": false
+  },
+  "sgjourney:technology/obtain_advanced_crystal": {
+    "criteria": {
+      "got_advanced_crystal": "2025-07-25 20:29:49 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/root": {
+    "criteria": {
+      "hold_stargate": "2025-07-25 20:29:49 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_classic_stargate_block": {
+    "criteria": {
+      "got_classic_stargate_block": "2025-07-25 20:29:49 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_crystal": {
+    "criteria": {
+      "got_crystal": "2025-07-25 20:29:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-07-26 16:35:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-07-26 16:35:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-07-26 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-07-26 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_matok": {
+    "criteria": {
+      "got_matok": "2025-07-26 16:36:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-07-26 16:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-07-26 16:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-07-26 16:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-07-26 16:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-07-26 16:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-07-26 16:38:51 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_classic_dhd": {
+    "criteria": {
+      "got_classic_dhd": "2025-08-08 15:33:20 -0400"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-08-08 16:05:45 -0400"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2025-08-08 16:10:49 -0400"
+    },
+    "done": true
+  },
+  "mekanism:ultimate_control_circuit": {
+    "criteria": {
+      "ultimate_control_circuit": "2025-08-08 16:11:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-08-08 16:11:26 -0400"
+    },
+    "done": true
+  },
+  "mekanism:steel_ingot": {
+    "criteria": {
+      "ingot_steel": "2025-08-08 16:17:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-08-08 16:46:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-08-08 16:46:25 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2025-08-08 16:46:25 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_advanced_crystallizer": {
+    "criteria": {
+      "got_advanced_crystallizer": "2025-08-08 16:48:04 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_crystallizer": {
+    "criteria": {
+      "got_crystallizer": "2025-08-08 16:48:05 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/temp/matok": {
+    "criteria": {
+      "has_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_chevron_block": {
+    "criteria": {
+      "has_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_ring_block": {
+    "criteria": {
+      "has_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/temp/kara_kesh": {
+    "criteria": {
+      "has_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_base_block": {
+    "criteria": {
+      "has_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_naquadah": {
+    "criteria": {
+      "got_naquadah": "2025-08-08 16:48:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-08-08 16:48:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-08-08 16:48:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-08-08 16:48:43 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-08-08 17:48:09 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -1,0 +1,4 @@
+/give Dev moregate:citrin
+/effect give Dev minecraft:night_vision infinite 255 true
+/kill @e[type= minecraft:ender_dragon ]
+/time set day

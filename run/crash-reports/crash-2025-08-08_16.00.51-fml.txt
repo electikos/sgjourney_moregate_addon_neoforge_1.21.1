@@ -1,0 +1,71 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2025-08-08 16:00:51
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: moregate --
+Details:
+	Mod file: /home/bastian/Documents/minecraft/project/moregate/build/classes/java/main/
+	Failure message: Mod moregate requires mekanism 0.6 or above
+		Currently, mekanism is not installed
+		
+	Mod version: 0.1
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-64-generic
+	Java Version: 21.0.7, JetBrains s.r.o.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), JetBrains s.r.o.
+	Memory: 234776552 bytes (223 MiB) / 599785472 bytes (572 MiB) up to 3114270720 bytes (2970 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 71 Stepping 1
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: HD Graphics 5600
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x1612
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 16177.56
+	Virtual memory used (MiB): 7250.93
+	Swap memory total (MiB): 10240.00
+	Swap memory used (MiB): 0.51
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1180.34, total: 1187.51
+	Space in storage for workdir (MiB): available: 699893.63, total: 937289.06
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.41.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.41.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.41.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.194.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.194.jar                             |NeoForge                      |neoforge                      |21.1.194            |Manifest: NOSIGNATURE

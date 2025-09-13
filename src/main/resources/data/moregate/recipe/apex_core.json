@@ -1,0 +1,25 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mekanism:advanced_induction_cell"
+    },
+    "B": {
+      "item": "mekanism:ingot_steel"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB"
+  ],
+  "result":{
+    "count": 1,
+    "id": "moregate:apex_core"
+  }
+}

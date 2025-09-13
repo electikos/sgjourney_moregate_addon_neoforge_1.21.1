@@ -1,0 +1,5 @@
+{
+	"name": "point_of_origin.moregate.elec",
+	"texture": "moregate:points_of_origin/elec.png",
+	"generates_randomly": false
+}
