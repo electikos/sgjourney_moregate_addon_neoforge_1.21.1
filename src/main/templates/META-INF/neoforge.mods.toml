@@ -2,6 +2,7 @@
 modLoader = "javafml" #mandatory
 loaderVersion = "${loader_version_range}" #mandatory
 license = "${mod_license}"
+license_spdx="${mod_license_spdx}"
 
 [[mods]]
 modId = "${mod_id}"
