@@ -2,3 +2,7 @@
 /effect give Dev minecraft:night_vision infinite 255 true
 /kill @e[type= minecraft:ender_dragon ]
 /time set day
+/gamerule doMobSpawning false
+/kill @e[type= minecraft:slime ]
+/kill @e[type= minecraft:item ]
+/time set day

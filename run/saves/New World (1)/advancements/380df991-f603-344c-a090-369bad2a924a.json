@@ -59,6 +59,18 @@
     },
     "done": true
   },
+  "sgjourney:technology/obtain_basic_interface": {
+    "criteria": {
+      "got_basic_interface": "2025-08-08 19:09:51 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_crystal_interface": {
+    "criteria": {
+      "got_crystal_interface": "2025-08-08 19:09:58 -0400"
+    },
+    "done": true
+  },
   "sgjourney:recipes/temp/matok": {
     "criteria": {
       "has_naquadah": "2025-08-08 19:13:00 -0400"
@@ -77,21 +89,27 @@
     },
     "done": true
   },
-  "sgjourney:recipes/naquadah/naquadah_stairs": {
-    "criteria": {
-      "has_naquadah_alloy": "2025-08-08 19:13:15 -0400"
-    },
-    "done": true
-  },
   "sgjourney:recipes/temp/kara_kesh": {
     "criteria": {
       "has_naquadah": "2025-08-08 19:13:00 -0400"
     },
     "done": true
   },
-  "sgjourney:technology/obtain_basic_interface": {
+  "sgjourney:recipes/naquadah/classic_stargate_base_block": {
     "criteria": {
-      "got_basic_interface": "2025-08-08 19:09:51 -0400"
+      "has_naquadah": "2025-08-08 19:13:00 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_naquadah": {
+    "criteria": {
+      "got_naquadah": "2025-08-08 19:13:00 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/naquadah_stairs": {
+    "criteria": {
+      "has_naquadah_alloy": "2025-08-08 19:13:15 -0400"
     },
     "done": true
   },
@@ -107,27 +125,9 @@
     },
     "done": true
   },
-  "sgjourney:recipes/naquadah/classic_stargate_base_block": {
-    "criteria": {
-      "has_naquadah": "2025-08-08 19:13:00 -0400"
-    },
-    "done": true
-  },
   "sgjourney:recipes/naquadah/naquadah_block": {
     "criteria": {
       "has_naquadah_alloy": "2025-08-08 19:13:15 -0400"
-    },
-    "done": true
-  },
-  "sgjourney:technology/obtain_naquadah": {
-    "criteria": {
-      "got_naquadah": "2025-08-08 19:13:00 -0400"
-    },
-    "done": true
-  },
-  "sgjourney:technology/obtain_crystal_interface": {
-    "criteria": {
-      "got_crystal_interface": "2025-08-08 19:09:58 -0400"
     },
     "done": true
   },

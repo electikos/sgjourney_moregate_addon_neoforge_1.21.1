@@ -89,10 +89,10 @@ onboardAccessibility:false
 menuBackgroundBlurriness:5
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
-key_key.forward:key.keyboard.up
-key_key.left:key.keyboard.left
-key_key.back:key.keyboard.down
-key_key.right:key.keyboard.right
+key_key.forward:key.keyboard.w
+key_key.left:key.keyboard.a
+key_key.back:key.keyboard.s
+key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
 key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
@@ -131,6 +131,10 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_ponder.keyinfo.ponder:key.keyboard.w
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
