@@ -44,7 +44,7 @@ ordering = "NONE"
 side = "BOTH"
 
 
-[[dependencies.moregate]]
+[[dependencies."${mod_id}"]]
 modId = "create"
 type = "optional"
 versionRange = "[0,)"
@@ -52,7 +52,7 @@ ordering = "NONE"
 side = "BOTH"
 
 
-[[dependencies.moregate]]
+[[dependencies."${mod_id}"]]
 modId = "ae2"
 type = "optional"
 versionRange = "[0,)"
