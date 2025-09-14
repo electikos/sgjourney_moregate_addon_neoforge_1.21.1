@@ -11,4 +11,5 @@
   "texture":"moregate:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate.png","engaged_texture":"moregate:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate_engaged.png","stargate_model":{"raise_back_chevrons":false},
   "rotation_sounds":{"rotation_sound":"moregate:bloodgate_ring_spin", "rotation_stop_sound":"moregate:crafter_chevron_encode","rotation_startup_sound":"sgjourney:empty"},
   "chevron_engaged_sounds":{"default":"moregate:crafter_chevron_encode"},
-  "chevron_incoming_sounds":{"default":"moregate:nox_chevron_encode"}}
+  "chevron_incoming_sounds":{"default":"moregate:nox_chevron_encode"}
+}
