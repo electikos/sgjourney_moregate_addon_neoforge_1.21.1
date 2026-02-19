@@ -6,3 +6,7 @@
 /kill @e[type= minecraft:slime ]
 /kill @e[type= minecraft:item ]
 /time set day
+/weather clear
+/time set day
+/gamerule doWeatherCycle false
+/gamerule doDaylightCycle false

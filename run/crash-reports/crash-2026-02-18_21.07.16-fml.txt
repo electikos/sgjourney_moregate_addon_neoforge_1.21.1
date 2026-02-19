@@ -1,0 +1,101 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2026-02-18 21:07:16
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: worldedit --
+Details:
+	Mod file: /home/bastian/Documents/minecraft/project/moregate/run/mods/worldedit-mod-7.4.0.jar
+	Failure message: Mod worldedit requires neoforge 21.11.34-beta or above
+		Currently, neoforge is 21.1.219
+		
+	Mod version: 7.4.0+7381-3decaf0
+	Mod issues URL: https://discord.gg/enginehub
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: worldeditcui_protocol --
+Details:
+	Mod file: /home/bastian/Documents/minecraft/project/moregate/run/mods/worldedit-mod-7.4.0.jar#194!/META-INF/jarjar/worldeditcui-protocol-neoforge-mc1.21.11-4.0.2.jar
+	Failure message: Mod worldeditcui_protocol requires neoforge 21.5 or above
+		Currently, neoforge is 21.1.219
+		
+	Mod version: 4.0.2
+	Mod issues URL: https://github.com/EngineHub/WorldEditCUI-Protocol/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: worldeditcui_protocol --
+Details:
+	Mod file: /home/bastian/Documents/minecraft/project/moregate/run/mods/worldedit-mod-7.4.0.jar#194!/META-INF/jarjar/worldeditcui-protocol-neoforge-mc1.21.11-4.0.2.jar
+	Failure message: Mod worldeditcui_protocol requires minecraft 1.21.5 or above
+		Currently, minecraft is 1.21.1
+		
+	Mod version: 4.0.2
+	Mod issues URL: https://github.com/EngineHub/WorldEditCUI-Protocol/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: worldedit --
+Details:
+	Mod file: /home/bastian/Documents/minecraft/project/moregate/run/mods/worldedit-mod-7.4.0.jar
+	Failure message: Mod worldedit requires minecraft 1.21.11 or above, and below 1.22
+		Currently, minecraft is 1.21.1
+		
+	Mod version: 7.4.0+7381-3decaf0
+	Mod issues URL: https://discord.gg/enginehub
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-100-generic
+	Java Version: 21.0.9, JetBrains s.r.o.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), JetBrains s.r.o.
+	Memory: 156068968 bytes (148 MiB) / 538968064 bytes (514 MiB) up to 3114270720 bytes (2970 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 71 Stepping 1
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: HD Graphics 5600
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x1612
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 16177.51
+	Virtual memory used (MiB): 7927.25
+	Swap memory total (MiB): 10240.00
+	Swap memory used (MiB): 207.47
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1180.32, total: 1187.50
+	Space in storage for workdir (MiB): available: 629038.00, total: 937289.06
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.219.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.219.jar                             |NeoForge                      |neoforge                      |21.1.219            |Manifest: NOSIGNATURE
