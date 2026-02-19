@@ -8,7 +8,7 @@
 		"id": "sgjourney:stargate_variant_crystal",
 		"components":
 		{
-			"sgjourney:stargate_variant": "moregate:jumgate"
+			"sgjourney:stargate_variant": "moregate:jumpgate"
 		}
 	}
 }
