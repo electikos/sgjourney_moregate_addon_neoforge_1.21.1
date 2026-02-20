@@ -30,6 +30,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.example.muc.moregate.component.ModDataComponent;
 import org.example.muc.moregate.item.ModItems;
 import org.slf4j.Logger;
 
@@ -56,6 +57,7 @@ public class Moregate {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModDataComponent.register(modEventBus);
         modEventBus.addListener(this::addCreative);
 
 

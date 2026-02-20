@@ -58,3 +58,11 @@ type = "optional"
 versionRange = "[0,)"
 ordering = "NONE"
 side = "BOTH"
+
+
+[[dependencies."${mod_id}"]]
+modId = "twilightforest"
+type = "optional"
+versionRange = "[4.8.3287,)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,18 +1,18 @@
-[19févr.2026 21:57:09.619] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
-[19févr.2026 21:57:09.623] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 21.0.9+10-b1163.86
-[19févr.2026 21:57:09.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by JetBrains s.r.o.; OS Linux arch amd64 version 6.8.0-100-generic
-[19févr.2026 21:57:09.795] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19févr.2026 21:57:09.973] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19févr.2026 21:57:10.066] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19févr.2026 21:57:10.191] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/bastian/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
-[19févr.2026 21:57:10.401] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce 940M/PCIe/SSE2 GL version 4.6.0 NVIDIA 580.126.09, NVIDIA Corporation
-[19févr.2026 21:57:10.792] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[19févr.2026 21:57:10.793] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[20févr.2026 17:56:37.832] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
+[20févr.2026 17:56:37.835] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 21.0.9+10-b1163.86
+[20févr.2026 17:56:37.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by JetBrains s.r.o.; OS Linux arch amd64 version 6.8.0-100-generic
+[20févr.2026 17:56:38.025] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20févr.2026 17:56:38.205] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20févr.2026 17:56:38.277] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20févr.2026 17:56:38.450] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/bastian/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
+[20févr.2026 17:56:38.680] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce 940M/PCIe/SSE2 GL version 4.6.0 NVIDIA 580.126.09, NVIDIA Corporation
+[20févr.2026 17:56:39.116] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[20févr.2026 17:56:39.118] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Applied Energistics 2 19.2.17 (ae2)
-		Architectury 13.0.8 (architectury)
+		CC: Tweaked 1.117.0 (computercraft)
 		Cloth Config v15 API 15.0.140 (cloth_config)
 		Create 6.0.6 (create)
 		Effortless Building 3.10 (effortlessbuilding)
@@ -21,42 +21,45 @@
 		Just Enough Items 19.21.2.313 (jei)
 		Mekanism 10.7.14 (mekanism)
 		Minecraft 1.21.1 (minecraft)
-		moregate 0.3 (moregate)
+		moregate 0.4 (moregate)
 		NeoForge 21.1.219 (neoforge)
 		Ponder 1.0.56 (ponder)
 		Stargate Journey 0.6.44 (sgjourney)
-[19févr.2026 21:57:12.338] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[19févr.2026 21:57:12.388] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
-[19févr.2026 21:57:12.488] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
-[19févr.2026 21:57:12.490] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19févr.2026 21:57:12.491] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
-[19févr.2026 21:57:13.364] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/ponder/PonderWorld (java.lang.ClassNotFoundException: com.simibubi.create.foundation.ponder.PonderWorld)
-[19févr.2026 21:57:14.125] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19févr.2026 21:57:16.333] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 557 milliseconds
-[19févr.2026 21:57:23.844] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19févr.2026 21:57:23.847] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19févr.2026 21:57:23.853] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19févr.2026 21:57:23.857] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19févr.2026 21:57:23.860] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19févr.2026 21:57:24.086] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23186!/assets/.mcassetsroot' uses unexpected schema
-[19févr.2026 21:57:24.087] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23186!/data/.mcassetsroot' uses unexpected schema
-[19févr.2026 21:57:24.124] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19févr.2026 21:57:24.140] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19févr.2026 21:57:24.310] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[19févr.2026 21:57:24.712] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
-[19févr.2026 21:57:24.782] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
-[19févr.2026 21:57:24.913] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
-[19févr.2026 21:57:24.980] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[19févr.2026 21:57:24.996] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 15.15 milliseconds
-[19févr.2026 21:57:32.922] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [moregate]
-[19févr.2026 21:57:33.410] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
+		The Twilight Forest 4.8.3287 (twilightforest)
+[20févr.2026 17:56:40.852] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[20févr.2026 17:56:40.906] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
+[20févr.2026 17:56:41.043] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[20févr.2026 17:56:41.045] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20févr.2026 17:56:41.049] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[20févr.2026 17:56:41.554] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/ponder/PonderWorld (java.lang.ClassNotFoundException: com.simibubi.create.foundation.ponder.PonderWorld)
+[20févr.2026 17:56:42.326] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20févr.2026 17:56:45.470] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 724 milliseconds
+[20févr.2026 17:56:53.809] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20févr.2026 17:56:53.813] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20févr.2026 17:56:53.821] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20févr.2026 17:56:53.824] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20févr.2026 17:56:53.827] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20févr.2026 17:56:54.153] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23187!/assets/.mcassetsroot' uses unexpected schema
+[20févr.2026 17:56:54.153] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23187!/data/.mcassetsroot' uses unexpected schema
+[20févr.2026 17:56:54.188] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20févr.2026 17:56:54.199] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20févr.2026 17:56:54.388] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[20févr.2026 17:56:54.768] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
+[20févr.2026 17:56:54.800] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+[20févr.2026 17:56:54.951] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
+[20févr.2026 17:56:55.194] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
+[20févr.2026 17:56:55.396] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[20févr.2026 17:56:55.414] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 10.63 milliseconds
+[20févr.2026 17:56:57.045] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 2277 ms
+[20févr.2026 17:57:09.213] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [moregate]
+[20févr.2026 17:57:09.695] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
 com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%23110!/:?]
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23110!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23186!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23186!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23186!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23187!/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
@@ -92,9 +95,9 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/bast
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23110!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23186!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23187!/:?]
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
@@ -121,9 +124,9 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/bast
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23110!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23186!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23187!/:?]
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
@@ -150,9 +153,9 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/bast
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
 		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23110!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23186!/:?]
-		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23186!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:615) ~[neoforge-21.1.219.jar%23187!/:?]
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.219.jar%23187!/:?]
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 		at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
@@ -171,291 +174,352 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/bast
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 		at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[19févr.2026 21:57:33.436] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/guideme, mod/architectury, mod/jei, mod/ae2, mod/mekanism, mod/cloth_config, mod/sgjourney, mod/flywheel, mod/ponder, mod/create, mod/moregate, mod/effortlessbuilding, mod/neoforge
-[19févr.2026 21:57:33.451] [Worker-Main-4/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM COMMON SETUP
-[19févr.2026 21:57:33.451] [Worker-Main-4/INFO] [org.example.muc.moregate.Moregate/]: DIRT BLOCK >> minecraft:dirt
-[19févr.2026 21:57:33.452] [Worker-Main-4/INFO] [org.example.muc.moregate.Moregate/]: The magic number is... 42
-[19févr.2026 21:57:33.452] [Worker-Main-4/INFO] [org.example.muc.moregate.Moregate/]: ITEM >> minecraft:iron_ingot
-[19févr.2026 21:57:33.454] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Version 10.7.14 initializing...
-[19févr.2026 21:57:33.475] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
-[19févr.2026 21:57:33.489] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[19févr.2026 21:57:33.490] [Worker-Main-3/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[19févr.2026 21:57:33.604] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[19févr.2026 21:57:34.453] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[19févr.2026 21:57:35.089] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM CLIENT SETUP
-[19févr.2026 21:57:35.092] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: MINECRAFT NAME >> Dev
-[19févr.2026 21:57:36.988] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:item/auto_dialer' referenced from: sgjourney:item/auto_dialer: java.io.FileNotFoundException: sgjourney:models/item/auto_dialer.json
-[19févr.2026 21:57:36.989] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:item/crystal_reader' referenced from: sgjourney:item/crystal_reader: java.io.FileNotFoundException: sgjourney:models/item/crystal_reader.json
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=west:
+[20févr.2026 17:57:09.717] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/guideme, mod/computercraft, mod/jei, mod/ae2, mod/mekanism, mod/cloth_config, mod/sgjourney, mod/flywheel, mod/ponder, mod/twilightforest, mod/create, mod/moregate, mod/effortlessbuilding, mod/neoforge
+[20févr.2026 17:57:09.732] [Worker-Main-7/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM COMMON SETUP
+[20févr.2026 17:57:09.732] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Version 10.7.14 initializing...
+[20févr.2026 17:57:09.733] [Worker-Main-7/INFO] [org.example.muc.moregate.Moregate/]: DIRT BLOCK >> minecraft:dirt
+[20févr.2026 17:57:09.733] [Worker-Main-7/INFO] [org.example.muc.moregate.Moregate/]: The magic number is... 42
+[20févr.2026 17:57:09.735] [Worker-Main-7/INFO] [org.example.muc.moregate.Moregate/]: ITEM >> minecraft:iron_ingot
+[20févr.2026 17:57:09.808] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[20févr.2026 17:57:09.871] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[20févr.2026 17:57:09.873] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Initialized HolidayManager.
+[20févr.2026 17:57:09.911] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[20févr.2026 17:57:09.911] [Worker-Main-4/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[20févr.2026 17:57:09.912] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[20févr.2026 17:57:10.676] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.117.0 Target: null
+[20févr.2026 17:57:10.676] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.219
+[20févr.2026 17:57:11.405] [Worker-Main-2/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM CLIENT SETUP
+[20févr.2026 17:57:11.406] [Worker-Main-2/INFO] [org.example.muc.moregate.Moregate/]: MINECRAFT NAME >> Dev
+[20févr.2026 17:57:11.584] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3287 Target: null
+[20févr.2026 17:57:13.748] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:item/auto_dialer' referenced from: sgjourney:item/auto_dialer: java.io.FileNotFoundException: sgjourney:models/item/auto_dialer.json
+[20févr.2026 17:57:14.781] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:item/crystal_reader' referenced from: sgjourney:item/crystal_reader: java.io.FileNotFoundException: sgjourney:models/item/crystal_reader.json
+[20févr.2026 17:57:17.082] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=west:
     minecraft:textures/atlas/blocks.png:minecraft:classic_dhd
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:trinium_iris#inventory:
+[20févr.2026 17:57:17.083] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:trinium_iris#inventory:
     minecraft:textures/atlas/blocks.png:sgjourney:item/trinium_iris
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=south:
+[20févr.2026 17:57:17.083] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=south:
     minecraft:textures/atlas/blocks.png:minecraft:classic_dhd
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=east:
+[20févr.2026 17:57:17.083] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=east:
     minecraft:textures/atlas/blocks.png:minecraft:classic_dhd
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#inventory:
+[20févr.2026 17:57:17.083] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:classic_dhd
-[19févr.2026 21:57:38.747] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=north:
+[20févr.2026 17:57:17.083] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model sgjourney:classic_dhd#facing=north:
     minecraft:textures/atlas/blocks.png:minecraft:classic_dhd
-[19févr.2026 21:57:39.356] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Scenes took 166.4 ms
-[19févr.2026 21:57:39.365] [Worker-Main-1/INFO] [PonderIndex/]: Registering Ponder Tags took 8.452 ms
-[19févr.2026 21:57:39.802] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_naquadah_armor', args=[]} for sound event: sgjourney:equip_naquadah_armor
-[19févr.2026 21:57:39.803] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19févr.2026 21:57:39.803] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19févr.2026 21:57:39.901] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Built-in Audio Stéréo analogique
-[19févr.2026 21:57:39.903] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19févr.2026 21:57:40.022] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[19févr.2026 21:57:40.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19févr.2026 21:57:40.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19févr.2026 21:57:40.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19févr.2026 21:57:40.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19févr.2026 21:57:40.072] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19févr.2026 21:57:40.073] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19févr.2026 21:57:40.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19févr.2026 21:57:40.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19févr.2026 21:57:40.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19févr.2026 21:57:40.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19févr.2026 21:57:40.304] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19févr.2026 21:57:40.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19févr.2026 21:57:40.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[19févr.2026 21:57:40.344] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19févr.2026 21:57:40.437] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
-[19févr.2026 21:57:40.446] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[19févr.2026 21:57:40.448] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
-[19févr.2026 21:57:40.526] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 24,429 ms
-[19févr.2026 21:57:40.556] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
-[19févr.2026 21:57:40.557] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[19févr.2026 21:58:00.348] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[19févr.2026 21:58:00.353] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[19févr.2026 21:58:01.625] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[19févr.2026 21:58:01.628] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
-[19févr.2026 21:58:01.629] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[19févr.2026 21:58:01.629] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
-[19févr.2026 21:58:01.629] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
-[19févr.2026 21:58:01.629] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[19févr.2026 21:58:01.630] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[19févr.2026 21:58:01.630] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
-[19févr.2026 21:58:01.630] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[19févr.2026 21:58:01.630] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[19févr.2026 21:58:01.630] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[19févr.2026 21:58:01.634] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[19févr.2026 21:58:01.634] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[19févr.2026 21:58:01.635] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[19févr.2026 21:58:01.635] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[19févr.2026 21:58:01.635] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
-[19févr.2026 21:58:01.635] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[19févr.2026 21:58:01.635] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[19févr.2026 21:58:01.637] [Worker-Main-6/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[19févr.2026 21:58:02.439] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 5116 recipes
-[19févr.2026 21:58:02.884] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3032 advancements
-[19févr.2026 21:58:02.889] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_library_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
-[19févr.2026 21:58:02.889] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:muscles_loot_modifier - error: Not a JSON object: "effortlessbuilding:muscles"
-[19févr.2026 21:58:02.890] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
-[19févr.2026 21:58:02.890] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:elastic_hand_loot_modifier - error: Not a JSON object: "effortlessbuilding:elastic_hand"
-[19févr.2026 21:58:04.736] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[19févr.2026 21:58:04.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19févr.2026 21:58:05.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19févr.2026 21:58:05.630] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19févr.2026 21:58:05.765] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[19févr.2026 21:58:05.766] [Server thread/INFO] [org.example.muc.moregate.Moregate/]: HELLO from server starting
-[19févr.2026 21:58:05.777] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 397 ms
-[19févr.2026 21:58:05.780] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Deserializing Transporters
-[19févr.2026 21:58:05.961] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Transporter Network is up to date (Version: 2)
-[19févr.2026 21:58:06.134] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19févr.2026 21:58:06.134] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19févr.2026 21:58:06.811] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[19févr.2026 21:58:06.818] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[19févr.2026 21:58:07.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8713d797] logged in with entity id 4 at (14.907374185552042, -59.79027769173954, 26.87664825484625)
-[19févr.2026 21:58:07.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19févr.2026 21:58:07.826] [Render thread/INFO] [flywheel/]: Started 2 worker threads
-[19févr.2026 21:58:08.307] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6340fdbb=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/universe_mk3_variant_crystal
-[19févr.2026 21:58:08.307] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@177c9f99=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/andromeda_variant_crystal
-[19févr.2026 21:58:08.308] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7168741f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/quantum_variant_crystal
-[19févr.2026 21:58:08.308] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@15a1f2ac=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
-[19févr.2026 21:58:08.309] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@42cb71f9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
-[19févr.2026 21:58:08.309] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3138be6e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
-[19févr.2026 21:58:08.310] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3c2ecda=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/makeshift_variant_crystal
-[19févr.2026 21:58:08.310] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@19ec5a9c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/horizon_variant_crystal
-[19févr.2026 21:58:08.310] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@31b4e1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/streamline_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@748eb147=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@60be2730=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/create_mw_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1b7db901=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/crafter_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@16669033=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/mossy_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@17630f31=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/retrogate_variant_crystal
-[19févr.2026 21:58:08.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6f53d4a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
-[19févr.2026 21:58:08.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@70b62924=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/galifrey_pg_variant_crystal
-[19févr.2026 21:58:08.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@52f3c809=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/end_variant_crystal
-[19févr.2026 21:58:08.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5d664fe1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/warpgate_variant_crystal
-[19févr.2026 21:58:08.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7256366a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/create_variant_crystal
-[19févr.2026 21:58:08.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3368ce0d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/ori_variant_crystal
-[19févr.2026 21:58:08.313] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7f97ebe9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
-[19févr.2026 21:58:08.314] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@10e1aabd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/icarus_variant_crystal
-[19févr.2026 21:58:08.314] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@53c73bad=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
-[19févr.2026 21:58:08.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@262a8f7e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
-[19févr.2026 21:58:08.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@66a2f0f1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/ancient_variant_crystal
-[19févr.2026 21:58:08.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7b8b1ada=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/warpgate_u_variant_crystal
-[19févr.2026 21:58:08.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@11fb5c55=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
-[19févr.2026 21:58:08.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6358706b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/copper_variant_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@128c3189=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/jungle_gate_variant_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@31f2a4c8=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7a204f57=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/bloodgate_variant_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5adba350=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@29a8c1fb=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@dd8e4e2=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/apex_variant_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@757a48f9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
-[19févr.2026 21:58:08.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@72bcb425=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/brass_variant_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1df41490=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@57c11c38=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@70dbbbb9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/silence_variant_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@67d1241b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a3cfce5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/jumpgate_variant_crystal
-[19févr.2026 21:58:08.317] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5c30b46=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/t_end_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@28e86e34=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/dark_ascension_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@467776ce=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/electikosian_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7b116131=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/industrial_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6615cc2e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/spatial_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@d678716=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/nox_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@70db4172=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/galifrey_variant_crystal
-[19févr.2026 21:58:08.318] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@33beb1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/nether_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@480f6625=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/quartz_gate_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@79611705=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/forest_gate_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@531b098a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/forerunner_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4ec0f36e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/doom_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7d4d8add=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/flesh_gate_variant_crystal
-[19févr.2026 21:58:08.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@c65734e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
-[19févr.2026 21:58:08.320] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7b97c11=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/universe_mk2_variant_crystal
-[19févr.2026 21:58:08.325] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@16b6e6c3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
-[19févr.2026 21:58:08.325] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@23a24128=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
-[19févr.2026 21:58:08.325] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f662b5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
-[19févr.2026 21:58:08.327] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2ca92eb2=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
-[19févr.2026 21:58:08.328] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@d88551a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
-[19févr.2026 21:58:08.328] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3c12ee82=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
-[19févr.2026 21:58:08.346] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[19févr.2026 21:58:08.363] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[19févr.2026 21:58:08.376] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 12.37 milliseconds
-[19févr.2026 21:58:08.377] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[19févr.2026 21:58:08.382] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 4.649 milliseconds
-[19févr.2026 21:58:08.385] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[19févr.2026 21:58:08.647] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 20 duplicate items were found in 'Applied Energistics 2' creative tab's: displayItems
+[20févr.2026 17:57:17.440] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Scenes took 77.78 ms
+[20févr.2026 17:57:17.445] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Tags took 4.283 ms
+[20févr.2026 17:57:17.814] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_naquadah_armor', args=[]} for sound event: sgjourney:equip_naquadah_armor
+[20févr.2026 17:57:17.816] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20févr.2026 17:57:17.816] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20févr.2026 17:57:17.882] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Built-in Audio Stéréo analogique
+[20févr.2026 17:57:17.883] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20févr.2026 17:57:18.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[20févr.2026 17:57:18.054] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[20févr.2026 17:57:18.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20févr.2026 17:57:18.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20févr.2026 17:57:18.056] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20févr.2026 17:57:18.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20févr.2026 17:57:18.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[20févr.2026 17:57:18.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20févr.2026 17:57:18.066] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20févr.2026 17:57:18.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20févr.2026 17:57:18.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20févr.2026 17:57:18.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20févr.2026 17:57:18.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20févr.2026 17:57:18.304] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20févr.2026 17:57:18.329] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20févr.2026 17:57:18.409] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
+[20févr.2026 17:57:18.416] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[20févr.2026 17:57:18.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 mekanism:textures/atlas/robit.png-atlas
+[20févr.2026 17:57:18.489] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 25,195 ms
+[20févr.2026 17:57:18.506] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[20févr.2026 17:57:18.517] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[20févr.2026 17:57:18.518] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[20févr.2026 17:57:24.869] [Render thread/INFO] [com.simibubi.create.Create/]: Created 265 recipes which will be injected into the game
+[20févr.2026 17:57:24.876] [Render thread/INFO] [com.simibubi.create.Create/]: Created 4 tags which will be injected into the game
+[20févr.2026 17:57:26.137] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[20févr.2026 17:57:26.140] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
+[20févr.2026 17:57:26.141] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[20févr.2026 17:57:26.141] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
+[20févr.2026 17:57:26.141] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
+[20févr.2026 17:57:26.141] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[20févr.2026 17:57:26.142] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[20févr.2026 17:57:26.142] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
+[20févr.2026 17:57:26.142] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[20févr.2026 17:57:26.142] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[20févr.2026 17:57:26.142] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[20févr.2026 17:57:26.145] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[20févr.2026 17:57:26.145] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[20févr.2026 17:57:26.146] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[20févr.2026 17:57:26.146] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[20févr.2026 17:57:26.146] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
+[20févr.2026 17:57:26.146] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[20févr.2026 17:57:26.146] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[20févr.2026 17:57:26.147] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[20févr.2026 17:57:26.871] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 5844 recipes
+[20févr.2026 17:57:27.312] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3648 advancements
+[20févr.2026 17:57:27.318] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_library_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
+[20févr.2026 17:57:27.319] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:muscles_loot_modifier - error: Not a JSON object: "effortlessbuilding:muscles"
+[20févr.2026 17:57:27.319] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
+[20févr.2026 17:57:27.320] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:elastic_hand_loot_modifier - error: Not a JSON object: "effortlessbuilding:elastic_hand"
+[20févr.2026 17:57:34.742] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20févr.2026 17:57:34.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20févr.2026 17:57:35.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20févr.2026 17:57:35.608] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20févr.2026 17:57:35.796] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20févr.2026 17:57:36.117] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20févr.2026 17:57:36.118] [Server thread/INFO] [org.example.muc.moregate.Moregate/]: HELLO from server starting
+[20févr.2026 17:57:36.148] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 864 ms
+[20févr.2026 17:57:36.291] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Deserializing Transporters
+[20févr.2026 17:57:36.994] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Transporter Network is up to date (Version: 2)
+[20févr.2026 17:57:37.403] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20févr.2026 17:57:37.403] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20févr.2026 17:57:38.018] [Render thread/INFO] [com.simibubi.create.Create/]: Created 265 recipes which will be injected into the game
+[20févr.2026 17:57:38.026] [Render thread/INFO] [com.simibubi.create.Create/]: Created 4 tags which will be injected into the game
+[20févr.2026 17:57:38.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:30e8cfc5] logged in with entity id 3 at (84.37173236563821, -60.0, 27.224647228365566)
+[20févr.2026 17:57:38.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20févr.2026 17:57:39.017] [Render thread/INFO] [flywheel/]: Started 2 worker threads
+[20févr.2026 17:57:39.677] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6953ec1e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/andromeda_variant_crystal
+[20févr.2026 17:57:39.677] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3f0b7ee4=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/apex_core_recharge
+[20févr.2026 17:57:39.678] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4bf5a21a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
+[20févr.2026 17:57:39.678] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3db08466=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
+[20févr.2026 17:57:39.679] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2c9125c1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/makeshift_variant_crystal
+[20févr.2026 17:57:39.680] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@488982e9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/horizon_variant_crystal
+[20févr.2026 17:57:39.680] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2e8a0c90=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
+[20févr.2026 17:57:39.681] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@17a02e93=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/create_mw_variant_crystal
+[20févr.2026 17:57:39.682] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@32baae8b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/retrogate_variant_crystal
+[20févr.2026 17:57:39.683] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@36a0fcff=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
+[20févr.2026 17:57:39.683] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@48308837=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/galifrey_pg_variant_crystal
+[20févr.2026 17:57:39.685] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5e72f314=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/end_variant_crystal
+[20févr.2026 17:57:39.686] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@395bc0a7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/warpgate_variant_crystal
+[20févr.2026 17:57:39.686] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@8ad9477=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/ori_variant_crystal
+[20févr.2026 17:57:39.687] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4490d465=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
+[20févr.2026 17:57:39.687] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@db365b0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/ancient_variant_crystal
+[20févr.2026 17:57:39.688] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6a8ad259=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/warpgate_u_variant_crystal
+[20févr.2026 17:57:39.688] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@ee0ed53=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
+[20févr.2026 17:57:39.688] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4c113316=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/copper_variant_crystal
+[20févr.2026 17:57:39.688] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a9941c1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/jungle_gate_variant_crystal
+[20févr.2026 17:57:39.689] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@663d48d1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/twilight_variant_crystal
+[20févr.2026 17:57:39.689] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6f3eab30=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
+[20févr.2026 17:57:39.690] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2a72ac42=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/apex_variant_crystal
+[20févr.2026 17:57:39.691] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3a756784=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
+[20févr.2026 17:57:39.691] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3602dbdb=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/jumpgate_variant_crystal
+[20févr.2026 17:57:39.691] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2cff9100=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/industrial_variant_crystal
+[20févr.2026 17:57:39.692] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@13d02861=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/spatial_variant_crystal
+[20févr.2026 17:57:39.692] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@20834d8=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/nether_variant_crystal
+[20févr.2026 17:57:39.693] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@22f4eb41=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/doom_variant_crystal
+[20févr.2026 17:57:39.694] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@72d3098e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/universe_mk3_variant_crystal
+[20févr.2026 17:57:39.694] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6052b495=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/quantum_variant_crystal
+[20févr.2026 17:57:39.695] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@23bfe2b3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
+[20févr.2026 17:57:39.695] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2694ab66=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/streamline_variant_crystal
+[20févr.2026 17:57:39.696] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4ce15943=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/crafter_variant_crystal
+[20févr.2026 17:57:39.696] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@39e2ba56=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/mossy_variant_crystal
+[20févr.2026 17:57:39.697] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@65947da3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/aether_variant_crystal
+[20févr.2026 17:57:39.697] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@665825ec=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/create_variant_crystal
+[20févr.2026 17:57:39.697] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@20354325=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
+[20févr.2026 17:57:39.697] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@ca97d7f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/icarus_variant_crystal
+[20févr.2026 17:57:39.698] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4a16702c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
+[20févr.2026 17:57:39.698] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6dc64bc7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
+[20févr.2026 17:57:39.699] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@67601131=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/quartz_u_variant_crystal
+[20févr.2026 17:57:39.699] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@20e5da27=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/bloodgate_variant_crystal
+[20févr.2026 17:57:39.700] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@598b4907=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
+[20févr.2026 17:57:39.700] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6cca982=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/brass_variant_crystal
+[20févr.2026 17:57:39.700] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6142c9f3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
+[20févr.2026 17:57:39.701] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6ff8031e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
+[20févr.2026 17:57:39.701] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6c38bc97=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/silence_variant_crystal
+[20févr.2026 17:57:39.702] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f5b882b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
+[20févr.2026 17:57:39.702] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@78a1c562=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/t_end_variant_crystal
+[20févr.2026 17:57:39.703] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@57eed99b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/dark_ascension_variant_crystal
+[20févr.2026 17:57:39.703] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7e9b1bf5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/electikosian_variant_crystal
+[20févr.2026 17:57:39.703] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2dd2dedd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/nox_variant_crystal
+[20févr.2026 17:57:39.703] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5b2e84d0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/galifrey_variant_crystal
+[20févr.2026 17:57:39.703] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7aadac2f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/quartz_gate_variant_crystal
+[20févr.2026 17:57:39.704] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5c4f443c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/forest_gate_variant_crystal
+[20févr.2026 17:57:39.704] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@67d05d5e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/forerunner_variant_crystal
+[20févr.2026 17:57:39.704] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@48f74d70=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/flesh_gate_variant_crystal
+[20févr.2026 17:57:39.704] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5fac4c95=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
+[20févr.2026 17:57:39.705] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@79e48df8=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/moregate:crystallizing/universe_mk2_variant_crystal
+[20févr.2026 17:57:39.710] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@e09cfd5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
+[20févr.2026 17:57:39.710] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5ecc0de4=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
+[20févr.2026 17:57:39.711] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6552b1c8=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
+[20févr.2026 17:57:39.711] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2f9920dd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
+[20févr.2026 17:57:39.711] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6fae359c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
+[20févr.2026 17:57:39.712] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5133b6a0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
+[20févr.2026 17:57:39.728] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[20févr.2026 17:57:39.742] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[20févr.2026 17:57:39.758] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 15.82 milliseconds
+[20févr.2026 17:57:39.759] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[20févr.2026 17:57:39.765] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 5.265 milliseconds
+[20févr.2026 17:57:39.768] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[20févr.2026 17:57:39.842] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 20 duplicate items were found in 'Applied Energistics 2' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
-[EntropyManipulatorItem[entropy_manipulator], MatterCannonItem[matter_cannon], PortableCellItem[portable_fluid_cell_16k], PortableCellItem[portable_item_cell_64k], PortableCellItem[portable_fluid_cell_1k], ColorApplicatorItem[color_applicator], PortableCellItem[portable_item_cell_4k], PortableCellItem[portable_fluid_cell_64k], WirelessCraftingTerminalItem[wireless_crafting_terminal], ChargedStaffItem[charged_staff], PortableCellItem[portable_item_cell_16k], PortableCellItem[portable_item_cell_256k], PortableCellItem[portable_fluid_cell_256k], AnnihilationPlanePartItem[annihilation_plane], WirelessTerminalItem[wireless_terminal], ae2:energy_cell, PortableCellItem[portable_item_cell_1k], PortableCellItem[portable_fluid_cell_4k], ae2:dense_energy_cell]
-[19févr.2026 21:58:08.668] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 442 duplicate items were found in 'Applied Energistics 2 - Facades' creative tab's: displayItems
+[MatterCannonItem[matter_cannon], PortableCellItem[portable_item_cell_16k], PortableCellItem[portable_fluid_cell_16k], PortableCellItem[portable_fluid_cell_64k], WirelessCraftingTerminalItem[wireless_crafting_terminal], PortableCellItem[portable_fluid_cell_256k], WirelessTerminalItem[wireless_terminal], PortableCellItem[portable_item_cell_256k], PortableCellItem[portable_item_cell_1k], PortableCellItem[portable_item_cell_4k], AnnihilationPlanePartItem[annihilation_plane], ColorApplicatorItem[color_applicator], PortableCellItem[portable_item_cell_64k], ae2:energy_cell, ChargedStaffItem[charged_staff], PortableCellItem[portable_fluid_cell_1k], ae2:dense_energy_cell, EntropyManipulatorItem[entropy_manipulator], PortableCellItem[portable_fluid_cell_4k]]
+[20févr.2026 17:57:39.869] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 752 duplicate items were found in 'Applied Energistics 2 - Facades' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [FacadeItem[facade]]
-[19févr.2026 21:58:08.709] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 6 duplicate items were found in 'Stargate Journey - Items' creative tab's: displayItems
+[20févr.2026 17:57:39.889] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 6 duplicate items were found in 'Stargate Journey - Items' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
 [sgjourney:naquadah_power_cell, sgjourney:vial, sgjourney:syringe]
-[19févr.2026 21:58:08.717] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 3 duplicate items were found in 'Stargate Journey - Stargate Stuff' creative tab's: displayItems
+[20févr.2026 17:57:39.892] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 3 duplicate items were found in 'Stargate Journey - Stargate Stuff' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
-[sgjourney:pegasus_stargate, sgjourney:milky_way_stargate, sgjourney:classic_stargate]
-[19févr.2026 21:58:08.771] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 383.5 milliseconds
-[19févr.2026 21:58:08.777] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 391.3 milliseconds
-[19févr.2026 21:58:08.778] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[19févr.2026 21:58:08.787] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 8.825 milliseconds
-[19févr.2026 21:58:08.788] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[19févr.2026 21:58:08.814] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: mekanism:jei_plugin took 23.69 milliseconds
-[19févr.2026 21:58:08.816] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 27.48 milliseconds
-[19févr.2026 21:58:08.845] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
-[19févr.2026 21:58:08.847] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 2.039 milliseconds
-[19févr.2026 21:58:08.877] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[19févr.2026 21:58:08.903] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 24.80 milliseconds
-[19févr.2026 21:58:08.992] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 87.57 milliseconds
-[19févr.2026 21:58:09.149] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 152.3 milliseconds
-[19févr.2026 21:58:09.155] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 277.7 milliseconds
-[19févr.2026 21:58:09.156] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[19févr.2026 21:58:09.162] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 5.404 milliseconds
-[19févr.2026 21:58:09.163] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[19févr.2026 21:58:09.168] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 4.482 milliseconds
-[19févr.2026 21:58:09.170] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[19févr.2026 21:58:09.191] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 21.05 milliseconds
-[19févr.2026 21:58:09.193] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[19févr.2026 21:58:09.195] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.437 milliseconds
-[19févr.2026 21:58:09.197] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[19févr.2026 21:58:09.568] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 370.5 milliseconds
-[19févr.2026 21:58:09.692] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 123.5 milliseconds
-[19févr.2026 21:58:09.942] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 246.4 milliseconds
-[19févr.2026 21:58:10.052] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 108.9 milliseconds
-[19févr.2026 21:58:10.052] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 854.8 milliseconds
-[19févr.2026 21:58:10.067] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[19févr.2026 21:58:10.076] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 9.250 milliseconds
-[19févr.2026 21:58:10.083] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[19févr.2026 21:58:10.088] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[19févr.2026 21:58:10.100] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 11.43 milliseconds
-[19févr.2026 21:58:10.105] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[19févr.2026 21:58:10.108] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[19févr.2026 21:58:10.109] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[19févr.2026 21:58:10.198] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 88.52 milliseconds
-[19févr.2026 21:58:10.198] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[19févr.2026 21:58:10.245] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3513 ingredients
-[19févr.2026 21:58:11.643] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3513 ingredients
-[19févr.2026 21:58:11.645] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 1.447 seconds
-[19févr.2026 21:58:11.742] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 1.636 seconds
-[19févr.2026 21:58:11.745] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.640 seconds
-[19févr.2026 21:58:11.746] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.663 seconds
-[19févr.2026 21:58:11.747] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[19févr.2026 21:58:11.750] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 2.395 milliseconds
-[19févr.2026 21:58:11.750] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 3.404 seconds
-[19févr.2026 21:58:11.785] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Mekanism] Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and various other issues that you can read more about here.
-[19févr.2026 21:58:11.794] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 99 advancements
-[19févr.2026 21:58:13.114] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19févr.2026 21:58:13.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19févr.2026 21:58:13.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19févr.2026 21:58:13.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
-[19févr.2026 21:58:13.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
-[19févr.2026 21:58:13.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
-[19févr.2026 21:58:13.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
-[19févr.2026 21:58:13.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
-[19févr.2026 21:58:13.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
-[19févr.2026 21:58:13.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19févr.2026 21:58:13.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
-[19févr.2026 21:58:13.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
-[19févr.2026 21:58:44.718] [Server thread/ERROR] [net.povstalec.sgjourney.StargateJourney/]: SGJourneyStargate.noStargate: Stargate Entity could not be found
-[19févr.2026 21:58:46.972] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[19févr.2026 21:59:03.598] [Render thread/ERROR] [net.povstalec.sgjourney.StargateJourney/]: Could not locate {sgjourney:milky_way_stargate} variant [sgjourney:milky_way/icarus]
-[19févr.2026 21:59:58.762] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19févr.2026 21:59:58.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19févr.2026 21:59:58.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19févr.2026 21:59:58.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
-[19févr.2026 21:59:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
-[19févr.2026 21:59:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
-[19févr.2026 21:59:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
-[19févr.2026 21:59:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
-[19févr.2026 21:59:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
-[19févr.2026 21:59:58.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19févr.2026 21:59:58.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
-[19févr.2026 21:59:58.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
-[19févr.2026 21:59:59.391] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[19févr.2026 21:59:59.392] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[19févr.2026 21:59:59.392] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
-[19févr.2026 21:59:59.398] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 6.013 milliseconds
-[19févr.2026 21:59:59.421] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19févr.2026 21:59:59.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19févr.2026 21:59:59.579] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19févr.2026 21:59:59.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19févr.2026 21:59:59.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19févr.2026 21:59:59.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19févr.2026 21:59:59.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19févr.2026 22:00:00.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19févr.2026 22:00:00.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
-[19févr.2026 22:00:00.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
-[19févr.2026 22:00:00.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
-[19févr.2026 22:00:00.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
-[19févr.2026 22:00:00.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
-[19févr.2026 22:00:00.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
-[19févr.2026 22:00:00.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19févr.2026 22:00:01.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
-[19févr.2026 22:00:01.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
-[19févr.2026 22:00:01.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
-[19févr.2026 22:00:01.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19févr.2026 22:00:01.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[19févr.2026 22:00:01.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (unitas): All chunks are saved
-[19févr.2026 22:00:01.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (athos): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (rima): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[19févr.2026 22:00:01.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19févr.2026 22:00:01.831] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[sgjourney:milky_way_stargate, sgjourney:pegasus_stargate, sgjourney:classic_stargate]
+[20févr.2026 17:57:39.901] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 1 duplicate items were found in 'Twilight Forest: Equipment' creative tab's: displayItems
+This may indicate that these types of item need a subtype interpreter added to JEI:
+[twilightforest:glass_sword]
+[20févr.2026 17:57:39.936] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 166.1 milliseconds
+[20févr.2026 17:57:39.950] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 181.6 milliseconds
+[20févr.2026 17:57:39.951] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[20févr.2026 17:57:39.960] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 8.721 milliseconds
+[20févr.2026 17:57:39.961] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[20févr.2026 17:57:39.983] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering search ingredient aliases: mekanism:jei_plugin took 18.13 milliseconds
+[20févr.2026 17:57:39.984] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 22.87 milliseconds
+[20févr.2026 17:57:40.005] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[20févr.2026 17:57:40.008] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 2.374 milliseconds
+[20févr.2026 17:57:40.038] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[20févr.2026 17:57:40.073] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 31.78 milliseconds
+[20févr.2026 17:57:40.147] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: mekanism:jei_plugin took 73.42 milliseconds
+[20févr.2026 17:57:40.166] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: twilightforest:jei_plugin took 15.52 milliseconds
+[20févr.2026 17:57:40.242] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 75.90 milliseconds
+[20févr.2026 17:57:40.250] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 211.8 milliseconds
+[20févr.2026 17:57:40.255] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[20févr.2026 17:57:40.265] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 9.712 milliseconds
+[20févr.2026 17:57:40.267] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[20févr.2026 17:57:40.273] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 6.129 milliseconds
+[20févr.2026 17:57:40.275] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[20févr.2026 17:57:40.293] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 17.92 milliseconds
+[20févr.2026 17:57:40.295] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[20févr.2026 17:57:40.298] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.client.integration.jei.RecipeResolver
+[20févr.2026 17:57:40.299] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 3.908 milliseconds
+[20févr.2026 17:57:40.301] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[20févr.2026 17:57:40.812] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 510.5 milliseconds
+[20févr.2026 17:57:40.912] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: mekanism:jei_plugin took 99.66 milliseconds
+[20févr.2026 17:57:41.025] [Render thread/ERROR] [mezz.jei.library.load.PluginCaller/]: Caught an error from mod plugin: class twilightforest.compat.jei.JEICompat twilightforest:jei_plugin
+java.lang.NoSuchFieldError: Class mezz.jei.api.constants.RecipeTypes does not have member field 'mezz.jei.api.recipe.RecipeType GRINDSTONE'
+	at TRANSFORMER/twilightforest@4.8.3287/twilightforest.compat.jei.JEICompat.registerRecipes(JEICompat.java:136) ~[twilightforest-1.21.1-4.8.3287-universal.jar%23198!/:4.8.3287]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.library.load.PluginLoader.lambda$createRecipeManager$15(PluginLoader.java:202) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.library.load.PluginCaller.callOnPlugins(PluginCaller.java:26) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.library.load.PluginLoader.createRecipeManager(PluginLoader.java:202) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.library.startup.JeiStarter.start(JeiStarter.java:129) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.neoforge.startup.StartEventObserver.transitionState(StartEventObserver.java:175) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at TRANSFORMER/jei@19.21.2.313/mezz.jei.neoforge.startup.StartEventObserver.onEvent(StartEventObserver.java:120) ~[jei-1.21.1-neoforge-19.21.2.313.jar%23195!/:19.21.2.313]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23138!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23138!/:?]
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23138!/:?]
+	at TRANSFORMER/neoforge@21.1.219/net.neoforged.neoforge.client.ClientHooks.onRecipesUpdated(ClientHooks.java:664) ~[neoforge-21.1.219.jar%23188!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientPacketListener.handleUpdateRecipes(ClientPacketListener.java:1590) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:31) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:12) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:36) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.219.jar%23187!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.219.jar%23187!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23134!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23114!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[20févr.2026 17:57:41.314] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 285.5 milliseconds
+[20févr.2026 17:57:41.468] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 153.9 milliseconds
+[20févr.2026 17:57:41.468] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 1.167 seconds
+[20févr.2026 17:57:41.488] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[20févr.2026 17:57:41.498] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 9.772 milliseconds
+[20févr.2026 17:57:41.513] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[20févr.2026 17:57:41.520] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[20févr.2026 17:57:41.534] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 13.66 milliseconds
+[20févr.2026 17:57:41.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[20févr.2026 17:57:41.544] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[20févr.2026 17:57:41.545] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[20févr.2026 17:57:41.776] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 230.5 milliseconds
+[20févr.2026 17:57:41.776] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[20févr.2026 17:57:41.835] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 4227 ingredients
+[20févr.2026 17:57:43.314] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 4227 ingredients
+[20févr.2026 17:57:43.316] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 1.539 seconds
+[20févr.2026 17:57:43.434] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 1.892 seconds
+[20févr.2026 17:57:43.436] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.894 seconds
+[20févr.2026 17:57:43.437] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.924 seconds
+[20févr.2026 17:57:43.437] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[20févr.2026 17:57:43.443] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
+[20févr.2026 17:57:43.451] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 1 net.minecraft.world.item.ItemStack
+[20févr.2026 17:57:43.453] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 15.43 milliseconds
+[20févr.2026 17:57:43.454] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 3.725 seconds
+[20févr.2026 17:57:43.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Mekanism] Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and various other issues that you can read more about here.
+[20févr.2026 17:57:43.507] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 183 advancements
+[20févr.2026 17:58:12.017] [Render thread/ERROR] [net.povstalec.sgjourney.StargateJourney/]: Could not locate {sgjourney:milky_way_stargate} variant [sgjourney:milky_way/icarus]
+[20févr.2026 18:03:55.916] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20févr.2026 18:03:55.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20févr.2026 18:03:56.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[20févr.2026 18:03:56.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[20févr.2026 18:03:56.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[20févr.2026 18:03:56.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[20févr.2026 18:03:56.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[20févr.2026 18:03:56.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[20févr.2026 18:03:56.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20févr.2026 18:03:56.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[20févr.2026 18:03:56.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[20févr.2026 18:03:56.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20févr.2026 18:03:56.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[20févr.2026 18:09:14.816] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20févr.2026 18:09:14.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20févr.2026 18:09:14.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[20févr.2026 18:09:14.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[20févr.2026 18:09:14.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[20févr.2026 18:09:14.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[20févr.2026 18:09:14.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[20févr.2026 18:09:14.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[20févr.2026 18:09:14.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20févr.2026 18:09:14.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[20févr.2026 18:09:14.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[20févr.2026 18:09:14.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20févr.2026 18:09:14.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[20févr.2026 18:09:15.784] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[20févr.2026 18:09:15.785] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[20févr.2026 18:09:15.785] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[20févr.2026 18:09:15.789] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 4.595 milliseconds
+[20févr.2026 18:09:15.822] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20févr.2026 18:09:15.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20févr.2026 18:09:15.997] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20févr.2026 18:09:16.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20févr.2026 18:09:16.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20févr.2026 18:09:16.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20févr.2026 18:09:16.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20févr.2026 18:09:16.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[20févr.2026 18:09:16.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[20févr.2026 18:09:16.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[20févr.2026 18:09:16.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[20févr.2026 18:09:16.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[20févr.2026 18:09:17.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[20févr.2026 18:09:17.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20févr.2026 18:09:17.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[20févr.2026 18:09:17.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[20févr.2026 18:09:17.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20févr.2026 18:09:17.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[20févr.2026 18:09:17.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[20févr.2026 18:09:17.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (unitas): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (rima): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (athos): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[20févr.2026 18:09:17.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20févr.2026 18:09:19.140] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

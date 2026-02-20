@@ -1,0 +1,14 @@
+{
+  "type": "sgjourney:crystallizing",
+  "crystal_base": {"ingredient": {"item": "moregate:apex_core"}, "amount": 1, "components": {"moregate:energy":{"max": 135000000}}},
+  "primary_ingredient": {"ingredient": {"item": "sgjourney:naquadah"}, "amount": 1, "deplete": true},
+  "secondary_ingredient": {"ingredient": {"item": "minecraft:redstone_block"}, "amount": 1, "deplete": true},
+  "output":
+  {
+    "id": "moregate:apex_core",
+    "components":
+    {
+      "moregate:energy": 270000000
+    }
+  }
+}
