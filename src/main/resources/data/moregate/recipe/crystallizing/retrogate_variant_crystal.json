@@ -8,7 +8,7 @@
 		"id": "sgjourney:stargate_variant_crystal",
 		"components":
 		{
-			"sgjourney:stargate_variant": "moregate:dark_ascension"
+			"sgjourney:stargate_variant": "moregate:retrogate"
 		}
 	}
 }

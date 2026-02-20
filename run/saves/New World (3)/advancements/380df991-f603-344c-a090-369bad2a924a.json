@@ -221,5 +221,143 @@
     },
     "done": true
   },
+  "sgjourney:recipes/temp/matok": {
+    "criteria": {
+      "has_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_chevron_block": {
+    "criteria": {
+      "has_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_ring_block": {
+    "criteria": {
+      "has_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/temp/kara_kesh": {
+    "criteria": {
+      "has_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_base_block": {
+    "criteria": {
+      "has_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_naquadah": {
+    "criteria": {
+      "got_naquadah": "2026-02-19 17:19:06 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/naquadah_stairs": {
+    "criteria": {
+      "has_naquadah_alloy": "2026-02-19 17:19:08 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_naquadah_alloy": {
+    "criteria": {
+      "got_naquadah_alloy": "2026-02-19 17:19:08 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/naquadah_slab": {
+    "criteria": {
+      "has_naquadah_alloy": "2026-02-19 17:19:08 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/naquadah_block": {
+    "criteria": {
+      "has_naquadah_alloy": "2026-02-19 17:19:08 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_crystallizer": {
+    "criteria": {
+      "got_crystallizer": "2026-02-19 17:19:17 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_advanced_crystallizer": {
+    "criteria": {
+      "got_advanced_crystallizer": "2026-02-19 17:19:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2026-02-19 18:32:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-02-19 21:12:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-02-19 21:12:01 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

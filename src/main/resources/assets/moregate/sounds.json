@@ -279,6 +279,12 @@
          "moregate:end_portal_idle"
       ]
       },
+   "pegasus_ring_spin":{
+      "subtitle":"sounds.sgjourney.ring_spin",
+      "sounds":[
+         "moregate:pegasus_ring_spin"
+      ]
+   },
    "tollan_end_wormhole_open":{
       "subtitle":"sounds.sgjourney.wormhole_open",
       "sounds":[

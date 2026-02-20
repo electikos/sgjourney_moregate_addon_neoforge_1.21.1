@@ -9,6 +9,6 @@
 
 "fail_sounds":{"default":"sgjourney:tollan_dial_fail"},
 
-"chevron_engaged_sounds":{"default":"moregate:tollan_end_chevron"},
+"chevron_engaged_sounds":{"default":"minecraft:block.end_portal_frame.fill"},
 
-"chevron_incoming_sounds":{"default":"sgjourney:tollan_end_chevron"}}
+"chevron_incoming_sounds":{"default":"minecraft:block.end_portal_frame.fill"}}
