@@ -29,5 +29,11 @@
     },
     "done": true
   },
+  "sgjourney:technology/obtain_classic_dhd": {
+    "criteria": {
+      "got_classic_dhd": "2026-08-01 21:16:58 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
