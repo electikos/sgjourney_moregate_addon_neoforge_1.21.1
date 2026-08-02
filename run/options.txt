@@ -27,7 +27,7 @@ simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
-operatorItemsTab:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -169,6 +169,10 @@ key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
 key_ponder.keyinfo.ponder:key.keyboard.w
+key_key.twilightforest.zoom:key.keyboard.z
+key_key.twilightforest.item_display_map_cycle:key.keyboard.c
+key_key.twilightforest.swap_hotbar:key.keyboard.v
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown

@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-01 19:35:37 -0400"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-08-01 19:35:37 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-08-01 19:35:38 -0400"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-08-01 19:36:08 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/root": {
+    "criteria": {
+      "hold_stargate": "2026-08-01 19:36:08 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

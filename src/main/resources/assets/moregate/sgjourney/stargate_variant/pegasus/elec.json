@@ -64,7 +64,7 @@
     }
   },
   "symbols": {
-    "permanent_symbols": "moregate:elec",
+    "permanent_symbols": "moregate:electikosian",
     "engaged_symbols_glow": true,
     "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
