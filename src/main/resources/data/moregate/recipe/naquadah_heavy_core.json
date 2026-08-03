@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "ada",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "sgjourney:naquadah_ingot"
+    },
+    "d": {
+      "item": "sgjourney:naquadah_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:heavy_core",
+    "count": 1
+  }
+}

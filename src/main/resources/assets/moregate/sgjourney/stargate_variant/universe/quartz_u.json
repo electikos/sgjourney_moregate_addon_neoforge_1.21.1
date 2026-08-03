@@ -30,6 +30,26 @@
           "blue": 1
         }
       }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      }
     }
   },
   "rotation_sounds": {
@@ -62,6 +82,26 @@
           "blue": 1
         }
       }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      }
     }
   },
   "symbols": {
@@ -87,11 +127,7 @@
       "green": 0.6078,
       "blue": 1
     },
-    "symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engaged_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": false
+    "symbols_glow": true
   },
   "texture": "moregate:textures/entity/stargate/universe/quartz_u/quartz_u_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/universe/quartz_u/quartz_u_stargate_engaged.png",

@@ -27,6 +27,26 @@
           "alpha": 1
         }
       }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      }
     }
   },
   "shiny_wormhole": {
@@ -54,6 +74,26 @@
           "blue": 1,
           "alpha": 1
         }
+      }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
       }
     }
   },
