@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "mekanism:root": {
-    "criteria": {
-      "automatic": "2026-08-01 19:35:37 -0400"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2026-08-01 19:35:38 -0400"
@@ -72,12 +66,6 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/misc/tiny_tnt": {
-    "criteria": {
-      "has_gunpowder": "2026-08-02 12:10:46 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2026-08-02 12:10:46 -0400"
@@ -105,12 +93,6 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2026-08-02 22:23:32 -0400"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/light_detector": {
-    "criteria": {
-      "has_iron_ingot": "2026-08-02 22:23:36 -0400"
     },
     "done": true
   },
@@ -300,18 +282,6 @@
     },
     "done": true
   },
-  "mekanism:steel_ingot": {
-    "criteria": {
-      "ingot_steel": "2026-08-02 22:52:23 -0400"
-    },
-    "done": true
-  },
-  "mekanism:ultimate_control_circuit": {
-    "criteria": {
-      "ultimate_control_circuit": "2026-08-02 22:52:38 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-08-02 23:13:17 -0400"
@@ -429,6 +399,12 @@
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_heavy_core": "2026-08-02 23:41:53 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_advanced_crystal": {
+    "criteria": {
+      "got_advanced_crystal": "2026-08-23 21:31:44 -0400"
     },
     "done": true
   },

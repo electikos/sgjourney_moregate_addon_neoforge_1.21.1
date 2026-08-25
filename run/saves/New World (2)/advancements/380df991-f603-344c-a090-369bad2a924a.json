@@ -1,25 +1,7 @@
 {
-  "create:root": {
-    "criteria": {
-      "0": "2025-09-14 13:57:19 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-09-14 13:57:08 -0400"
-    },
-    "done": true
-  },
-  "mekanism:root": {
-    "criteria": {
-      "automatic": "2025-09-14 13:57:08 -0400"
-    },
-    "done": true
-  },
-  "sgjourney:technology/root": {
-    "criteria": {
-      "hold_stargate": "2025-09-14 13:57:19 -0400"
     },
     "done": true
   },
@@ -29,6 +11,102 @@
       "minecraft:plains": "2025-09-14 13:57:26 -0400"
     },
     "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-09-14 13:57:19 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/root": {
+    "criteria": {
+      "hold_stargate": "2025-09-14 13:57:19 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_classic_dhd": {
+    "criteria": {
+      "got_classic_dhd": "2026-08-24 15:45:44 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_crystal": {
+    "criteria": {
+      "got_crystal": "2026-08-24 15:55:11 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_advanced_crystal": {
+    "criteria": {
+      "got_advanced_crystal": "2026-08-24 15:55:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-08-24 15:55:18 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/zero_point_module": {
+    "criteria": {
+      "got_zero_point_module": "2026-08-24 15:55:18 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_transport_rings": {
+    "criteria": {
+      "got_transport_rings": "2026-08-24 22:50:54 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_advanced_crystal_interface": {
+    "criteria": {
+      "got_advanced_crystal_interface": "2026-08-25 13:59:22 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/temp/matok": {
+    "criteria": {
+      "has_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_chevron_block": {
+    "criteria": {
+      "has_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_ring_block": {
+    "criteria": {
+      "has_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/temp/kara_kesh": {
+    "criteria": {
+      "has_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/naquadah/classic_stargate_base_block": {
+    "criteria": {
+      "has_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_naquadah": {
+    "criteria": {
+      "got_naquadah": "2026-08-25 14:16:27 -0400"
+    },
+    "done": true
+  },
+  "moregate:meccha_dhd": {
+    "criteria": {
+      "has_cameleon_dhd": "2026-08-25 14:48:30 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }

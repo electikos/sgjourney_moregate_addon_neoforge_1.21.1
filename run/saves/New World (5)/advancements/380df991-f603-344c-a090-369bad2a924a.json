@@ -1,0 +1,28 @@
+{
+  "moregate:meccha_dhd": {
+    "criteria": {
+      "has_cameleon_dhd": "2026-08-25 15:13:55 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-08-25 15:13:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-25 15:12:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-08-25 15:12:16 -0400",
+      "minecraft:forest": "2026-08-25 15:12:09 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

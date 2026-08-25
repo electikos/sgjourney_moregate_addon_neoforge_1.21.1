@@ -1,0 +1,6 @@
+{
+  "texture" : "textures/entity/ring/ori/ori_texture.png",
+  "active_texture" : "textures/entity/ring/ori/ori_active_texture.png",
+  "ring_texture" : "textures/entity/ring/ori/ori_ring_texture.png",
+  "ring_active_texture" : "textures/entity/ring/ori/ori_ring_texture.png"
+}

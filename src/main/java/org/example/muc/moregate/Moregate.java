@@ -5,11 +5,11 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -30,9 +30,16 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.povstalec.sgjourney.common.init.TabInit;
+import net.povstalec.sgjourney.common.init.TransporterInit;
+import org.example.muc.moregate.block.ModBlocks;
+import org.example.muc.moregate.blockEntity.ModBlockEntities;
 import org.example.muc.moregate.component.ModDataComponent;
 import org.example.muc.moregate.item.ModItems;
+import org.example.muc.moregate.menu.ModMenu;
 import org.slf4j.Logger;
+
+import java.util.Map;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Moregate.MODID)
@@ -58,6 +65,10 @@ public class Moregate {
 
         ModItems.register(modEventBus);
         ModDataComponent.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenu.register(modEventBus);
+        TransporterRegister.init();
         modEventBus.addListener(this::addCreative);
 
 
@@ -84,10 +95,64 @@ public class Moregate {
         LOGGER.info("HELLO from server starting");
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        /* if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.APEXCORE);
+        } */
+        if (event.getTabKey().equals(TabInit.STARGATE_ITEMS.getKey())){
+            event.accept(ModItems.APEXCORE);
+            event.accept(ModItems.CAMELEON_TRANSPORT_RING);
         }
+        else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())){
+            event.accept(ModBlocks.CAMELEON_DHD);
+            event.accept(ModItems.DHD_VARIANT_CRYSTAL);
+            ResourceManager resourceManager =
+                    Minecraft.getInstance().getResourceManager();
 
+            Map<ResourceLocation, Resource> resources =
+                    resourceManager.listResources(
+                            "moregate/dhd",
+                            path -> path.getPath().endsWith(".json")
+                    );
+
+            for (ResourceLocation location : resources.keySet()) {
+                String namespace = location.getNamespace();
+                String path = location.getPath();
+
+                String variant = path.substring("moregate/dhd/".length()).replace(".json", "");
+
+                ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
+                ItemStack stack = new ItemStack(ModItems.DHD_VARIANT_CRYSTAL.get());
+
+                stack.set(ModDataComponent.DHD_VARIANT, variantId.toString());
+
+                event.accept(stack);
+            }
+
+            event.accept(ModBlocks.CAMELEON_TRANSPORT_RING);
+            event.accept(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL);
+
+            Map<ResourceLocation, Resource> resource =
+                    resourceManager.listResources(
+                            "moregate/ring",
+                            path -> path.getPath().endsWith(".json")
+                    );
+
+            for (ResourceLocation location : resource.keySet()) {
+                String namespace = location.getNamespace();
+                String path = location.getPath();
+
+                String variant = path.substring("moregate/ring/".length()).replace(".json", "");
+
+                ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
+                ItemStack stack = new ItemStack(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL.get());
+
+                stack.set(ModDataComponent.TRASNPORT_RING_VARIANT, variantId.toString());
+
+                event.accept(stack);
+            }
+
+            event.accept(ModItems.STARGATE_SHEILD);
+        }
 
     }
 

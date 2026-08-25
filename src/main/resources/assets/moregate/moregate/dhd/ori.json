@@ -1,0 +1,9 @@
+{
+  "texture" : "textures/entity/dhd/ori/ori_texture.png",
+  "background" : "textures/entity/dhd/ori/ori_bg.png",
+  "button" : "textures/entity/dhd/ori/ori_button.png",
+  "button_overlay" : "textures/entity/dhd/ori/ori_button_overlay.png",
+  "big_button" : "textures/entity/dhd/ori/ori_big_button.png",
+  "active_color": [152,0,255],
+  "is_horned" : false
+}

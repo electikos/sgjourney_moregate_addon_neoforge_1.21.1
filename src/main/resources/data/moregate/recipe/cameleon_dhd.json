@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone_button"
+    },
+    "b": {
+      "item": "sgjourney:naquadah_ingot"
+    },
+    "c": {
+      "item": "sgjourney:materialization_crystal"
+    },
+    "d": {
+      "item": "sgjourney:control_crystal"
+    }
+  },
+  "result": {
+    "id": "moregate:cameleon_dhd",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bab",
+    "a a",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "sgjourney:matter_projector"
+    },
+    "b": {
+      "item": "sgjourney:naquadah_copper_alloy"
+    }
+  },
+  "result": {
+    "id": "moregate:cameleon_transport_ring_item",
+    "count": 1
+  }
+}

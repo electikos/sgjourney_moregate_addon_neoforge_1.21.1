@@ -69,8 +69,7 @@ public class ApexCoreItem extends Item {
         tooltip.add(Component.literal(text).withStyle(ChatFormatting.AQUA));
 
         if (energy >= 135_000_000) {
-            tooltip.add(Component.literal("energy to high for recharge")
-                    .withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
+            tooltip.add(Component.translatable("moregate.tooltip.apex_core.energy_too_high").withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
         }
     }
 }

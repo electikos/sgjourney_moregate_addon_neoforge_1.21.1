@@ -17,9 +17,12 @@ public class ModDataComponent {
 
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<Integer>> ENERGY =
             register("energy", builder -> builder.persistent(Codec.INT).networkSynchronized(ByteBufCodecs.VAR_INT));
+    public static final DeferredHolder<DataComponentType<?>, DataComponentType<String>> DHD_VARIANT =
+            register("dhd_variant", builder -> builder.persistent(Codec.STRING).networkSynchronized(ByteBufCodecs.STRING_UTF8));
+    public static final DeferredHolder<DataComponentType<?>, DataComponentType<String>> TRASNPORT_RING_VARIANT =
+            register("transport_ring_variant", builder -> builder.persistent(Codec.STRING).networkSynchronized(ByteBufCodecs.STRING_UTF8));
 
-    private static <T>DeferredHolder<DataComponentType<?>, DataComponentType<T>>register(String name,
-                                                                                         UnaryOperator<DataComponentType.Builder<T>> builderOperator ){
+    private static <T>DeferredHolder<DataComponentType<?>, DataComponentType<T>>register(String name, UnaryOperator<DataComponentType.Builder<T>> builderOperator ){
         return DATA_COMPONENT_TYPES.register(name, () -> builderOperator.apply(DataComponentType.builder()).build());
     }
 

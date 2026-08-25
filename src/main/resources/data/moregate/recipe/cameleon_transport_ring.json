@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "moregate:cameleon_transport_ring_item"
+    },
+    "b": {
+      "item": "sgjourney:naquadah_copper_alloy"
+    },
+    "c": {
+      "item": "sgjourney:energy_crystal"
+    },
+    "d": {
+      "item": "sgjourney:control_crystal"
+    },
+    "e": {
+      "item": "sgjourney:communication_crystal"
+    }
+  },
+  "result": {
+    "id": "moregate:cameleon_transport_ring",
+    "count": 1
+  }
+}
