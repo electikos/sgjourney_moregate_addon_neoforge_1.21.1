@@ -26,6 +26,8 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -37,6 +39,8 @@ import org.example.muc.moregate.blockEntity.ModBlockEntities;
 import org.example.muc.moregate.component.ModDataComponent;
 import org.example.muc.moregate.item.ModItems;
 import org.example.muc.moregate.menu.ModMenu;
+import org.example.muc.moregate.network.MoregateNetwork;
+import org.example.muc.moregate.network.SetCartridgeAddressPayload;
 import org.slf4j.Logger;
 
 import java.util.Map;
@@ -56,7 +60,7 @@ public class Moregate {
     public Moregate(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
+        //Coucou à tout les français qui lisent ça.
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Moregate) to respond directly to events.
@@ -70,6 +74,7 @@ public class Moregate {
         ModMenu.register(modEventBus);
         TransporterRegister.init();
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(MoregateNetwork::register);
 
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -164,6 +169,20 @@ public class Moregate {
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        }
+    }
+    public class MoregateNetwork {
+
+        public static void register(RegisterPayloadHandlersEvent event) {
+
+            PayloadRegistrar registrar =
+                    event.registrar("moregate");
+
+            registrar.playToServer(
+                    SetCartridgeAddressPayload.TYPE,
+                    SetCartridgeAddressPayload.STREAM_CODEC,
+                    SetCartridgeAddressPayload::handle
+            );
         }
     }
 }

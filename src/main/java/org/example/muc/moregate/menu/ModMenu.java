@@ -21,6 +21,8 @@ public class ModMenu {
     public static final DeferredHolder<MenuType<?>, MenuType<CrystalCameleonMenu>> CAMELEON_DHD_CRYSTAL =
             registerMenuType(CrystalCameleonMenu::new, "cameleon_dhd_crystal");
     public static final DeferredHolder<MenuType<?>, MenuType<CameleonTransportMenu>> CAMELEON_TRANSPORT_MENU = registerMenuType(CameleonTransportMenu::new, "cameleon_transport_ring");
+    public static final DeferredHolder<MenuType<?>, MenuType<ChiselMenu>> CHISEL_MENU =
+            registerMenuType((containerId, inventory, buffer) -> {BlockPos pos = buffer.readBlockPos();return new ChiselMenu(containerId, inventory, pos);}, "cameleon_cartridge");
 
     private static <T extends AbstractContainerMenu> DeferredHolder<MenuType<?>, MenuType<T>> registerMenuType(IContainerFactory<T> factory, String name)
     {

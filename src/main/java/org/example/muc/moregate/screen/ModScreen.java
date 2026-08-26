@@ -12,19 +12,12 @@ public class ModScreen {
 
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
-        event.register(
-                ModMenu.CAMELEON_DHD.get(),
-                CameleonDHDScreen::new
-        );
+        event.register(ModMenu.CAMELEON_DHD.get(), CameleonDHDScreen::new);
 
-        event.register(
-                ModMenu.CAMELEON_DHD_CRYSTAL.get(),
-                CrystalCameleonDHDScreen::new
-        );
+        event.register(ModMenu.CAMELEON_DHD_CRYSTAL.get(), CrystalCameleonDHDScreen::new);
 
-        event.register(
-                ModMenu.CAMELEON_TRANSPORT_MENU.get(),
-                CameleonTransportSreen::new
-        );
+        event.register(ModMenu.CAMELEON_TRANSPORT_MENU.get(), CameleonTransportSreen::new);
+
+        event.register(ModMenu.CHISEL_MENU.get(), ChiselScreen::new);
     }
 }

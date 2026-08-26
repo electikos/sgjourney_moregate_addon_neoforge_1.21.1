@@ -17,3 +17,4 @@
 /give Dev moregate:cameleon_transport_ring
 /weather clear
 /time set day
+/give Dev moregate:chisel

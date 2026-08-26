@@ -1,0 +1,9 @@
+{
+  "texture" : "textures/entity/dhd/forest/forest_texture.png",
+  "background" : "textures/entity/dhd/default/default_bg.png",
+  "button" : "textures/entity/dhd/default/default_button.png",
+  "button_overlay" : "textures/entity/dhd/forest/forest_button_overlay.png",
+  "big_button" : "textures/entity/dhd/forest/forest_big_button.png",
+  "active_color": [43,237,0],
+  "is_horned" : true
+}

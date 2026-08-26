@@ -4,6 +4,7 @@
   "item.moregate.transport_ring_variant_crystal": "Cristal de variante d'anneaux de transport",
   "item.moregate.cameleon_transport_ring_item": "Anneau de transport caméléon",
   "item.moregate.stargate_sheild": "bouclier de porte des étoiles",
+  "item.moregate.chisel": "Burin",
 
   "block.moregate.cameleon_dhd" : "DHD caméléon",
   "block.moregate.cameleon_transport_ring" : "Anneaux de transport caméléon",
@@ -11,6 +12,8 @@
   "advancements.moregate.meccha_dhd.title" : "Meccha DHD",
   "advancements.moregate.meccha_dhd.description" : "Obtenez le meccha cameleon des DHD.",
 
-  "moregate.tooltip.apex_core.energy_too_high" : "Il y a trop d'énergie stocké pour la recharge."
+  "moregate.tooltip.apex_core.energy_too_high" : "Il y a trop d'énergie stocké pour la recharge.",
+
+  "screen.moregate.chisel_enter_button": "Entrer"
 
 }
