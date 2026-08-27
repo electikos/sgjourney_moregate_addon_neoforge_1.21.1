@@ -6,6 +6,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.food.FoodProperties;
@@ -25,6 +26,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
@@ -32,6 +34,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import net.povstalec.sgjourney.common.init.TabInit;
 import net.povstalec.sgjourney.common.init.TransporterInit;
 import org.example.muc.moregate.block.ModBlocks;
@@ -73,8 +76,8 @@ public class Moregate {
         ModBlockEntities.register(modEventBus);
         ModMenu.register(modEventBus);
         TransporterRegister.init();
-        modEventBus.addListener(this::addCreative);
         modEventBus.addListener(MoregateNetwork::register);
+        modEventBus.addListener(this::addCreative);
 
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -93,10 +96,18 @@ public class Moregate {
     }
 
 
+    @SubscribeEvent
+    public void onServerStarted(ServerStartedEvent event) {
+        MinecraftServer server = event.getServer();
+
+    CreativeModeTabs.tryRebuildTabContents(server.getWorldData().enabledFeatures(), false, server.registryAccess());
+
+    }
+
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        // Do something when the server starts
+
         LOGGER.info("HELLO from server starting");
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -108,16 +119,22 @@ public class Moregate {
             event.accept(ModItems.CAMELEON_TRANSPORT_RING);
         }
         else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())){
+
             event.accept(ModBlocks.CAMELEON_DHD);
             event.accept(ModItems.DHD_VARIANT_CRYSTAL);
-            ResourceManager resourceManager =
-                    Minecraft.getInstance().getResourceManager();
+            MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
+            ResourceManager resourceManager = server.getResourceManager();
+            if (resourceManager == null) {
+
+                return;
+            }
 
             Map<ResourceLocation, Resource> resources =
                     resourceManager.listResources(
                             "moregate/dhd",
                             path -> path.getPath().endsWith(".json")
                     );
+
 
             for (ResourceLocation location : resources.keySet()) {
                 String namespace = location.getNamespace();

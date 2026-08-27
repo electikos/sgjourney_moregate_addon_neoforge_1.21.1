@@ -1,0 +1,87 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2026-08-26 21:35:19
+Description: Exception in server tick loop
+
+java.lang.InternalError: Flight Recorder is not supported on this VM
+	at jdk.jfr@21.0.9/jdk.jfr.internal.JVMSupport.ensureWithInternalError(JVMSupport.java:65) ~[?:?] {}
+	at jdk.jfr@21.0.9/jdk.jfr.EventType.getEventType(EventType.java:213) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.profiling.jfr.event.WorldLoadFinishedEvent.<clinit>(WorldLoadFinishedEvent.java:18) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.profiling.jfr.JfrProfiler.onWorldLoadedStarted(JfrProfiler.java:236) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:333) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:193) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:676) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.219.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1595) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-136-generic
+	Java Version: 21.0.9, IBM Corporation
+	Java VM Version: Eclipse OpenJ9 VM (JRE 21 Linux amd64-64-Bit Compressed References 20251021_630 (JIT enabled, AOT enabled)
+OpenJ9   - 14b3b2de26
+OMR      - d4c7e3040
+JCL      - 7a630fb0f55 based on jdk-21.0.9+10), Eclipse OpenJ9
+	Memory: 159613576 bytes (152 MiB) / 428277760 bytes (408 MiB) up to 3112960000 bytes (2968 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 71 Stepping 1
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: HD Graphics 5600
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x1612
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 16177.50
+	Virtual memory used (MiB): 8027.57
+	Swap memory total (MiB): 10240.00
+	Swap memory used (MiB): 1114.63
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1181.46, total: 1187.50
+	Space in storage for workdir (MiB): available: 548866.31, total: 937289.06
+	JVM Flags: 3 total; -Xoptionsfile=/home/bastian/.jdks/semeru-21.0.9/lib/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -XX:+EnsureHashed:java/lang/Class,java/lang/Thread
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, mod_data, mod/sgjourney, mod/moregate, mod/neoforge
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/moregate, mod/neoforge, mod/sgjourney, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: 6096450960406818649
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserverdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.219.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		main                                              |moregate                      |moregate                      |1.0                 |Manifest: NOSIGNATURE
+		neoforge-21.1.219.jar                             |NeoForge                      |neoforge                      |21.1.219            |Manifest: NOSIGNATURE
+		qlc8dxM6-mN7N7svf.jar                             |Stargate Journey              |sgjourney                     |0.6.48-hotfix1      |Manifest: NOSIGNATURE
+	Crash Report UUID: 9277ae97-64f3-4133-979a-7998debeda52
+	FML: 4.0.42
+	NeoForge: 21.1.219
