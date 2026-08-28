@@ -3,6 +3,10 @@ package org.example.muc.moregate.block.custom;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -13,10 +17,11 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
@@ -24,19 +29,23 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.HitResult;
+import net.povstalec.sgjourney.common.block_entities.StructureGenEntity;
 import net.povstalec.sgjourney.common.block_entities.dhd.AbstractDHDEntity;
+import net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity;
+import net.povstalec.sgjourney.common.block_entities.tech.EnergyBlockEntity;
 import net.povstalec.sgjourney.common.blocks.dhd.CrystalDHDBlock;
-import net.povstalec.sgjourney.common.menu.ClassicDHDMenu;
-import net.povstalec.sgjourney.common.menu.DHDCrystalMenu;
+import net.povstalec.sgjourney.common.config.CommonDHDConfig;
+import net.povstalec.sgjourney.common.init.ItemInit;
+import net.povstalec.sgjourney.common.misc.InventoryUtil;
 import net.povstalec.sgjourney.common.misc.NetworkUtils;
 import org.example.muc.moregate.block.ModBlocks;
 import org.example.muc.moregate.blockEntity.CameleonDHDBlockEntity;
 import org.example.muc.moregate.blockEntity.ModBlockEntities;
 import org.example.muc.moregate.menu.CameleonMenu;
 import org.example.muc.moregate.menu.CrystalCameleonMenu;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.Properties;
 
 public class CameleonDHDBlock extends CrystalDHDBlock {
     public CameleonDHDBlock(Properties properties) {
@@ -149,4 +158,59 @@ public class CameleonDHDBlock extends CrystalDHDBlock {
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
+
+    public static ItemStack CrystalSetup(HolderLookup.Provider registries)
+    {
+        ItemStack stack = new ItemStack(ModBlocks.CAMELEON_DHD.get());
+        CompoundTag blockEntityTag = new CompoundTag();
+
+        blockEntityTag.putBoolean(AbstractDHDEntity.IS_NEW, true);
+        blockEntityTag.putByte(StructureGenEntity.GENERATION_STEP, StructureGenEntity.Step.READY.byteValue());
+
+        blockEntityTag.putString("id", "moregate:cameleon_dhd");
+        blockEntityTag.putLong(EnergyBlockEntity.ENERGY, CommonDHDConfig.milky_way_dhd_energy_buffer_capacity.get());
+
+        CompoundTag crystalInventory = new CompoundTag();
+        crystalInventory.putInt("Size", 9);
+        crystalInventory.put("Items", setupCrystalInventory(registries));
+        blockEntityTag.put(CrystalDHDEntity.CRYSTAL_INVENTORY, crystalInventory);
+
+        CompoundTag energyInventory = new CompoundTag();
+        energyInventory.putInt("Size", 2);
+        energyInventory.put("Items", setupEnergyInventory(registries));
+        blockEntityTag.put(AbstractDHDEntity.ENERGY_INVENTORY, energyInventory);
+
+        stack.set(DataComponents.BLOCK_ENTITY_DATA, CustomData.of(blockEntityTag));
+
+        return stack;
+    }
+
+    private static ListTag setupEnergyInventory(HolderLookup.Provider registries)
+    {
+        ListTag nbtTagList = new ListTag();
+
+        nbtTagList.add(InventoryUtil.addItem(registries, 0, new ItemStack(ItemInit.FUSION_CORE.get())));
+
+        return nbtTagList;
+    }
+
+    private static ListTag setupCrystalInventory(HolderLookup.Provider registries)
+    {
+        ListTag nbtTagList = new ListTag();
+
+        nbtTagList.add(InventoryUtil.addItem(registries, 0, new ItemStack(ItemInit.LARGE_CONTROL_CRYSTAL.get())));
+        nbtTagList.add(InventoryUtil.addItem(registries, 1, new ItemStack(ItemInit.ENERGY_CRYSTAL.get())));
+        nbtTagList.add(InventoryUtil.addItem(registries, 2, new ItemStack(ItemInit.COMMUNICATION_CRYSTAL.get())));
+        nbtTagList.add(InventoryUtil.addItem(registries, 3, new ItemStack(ItemInit.ENERGY_CRYSTAL.get())));
+        nbtTagList.add(InventoryUtil.addItem(registries, 5, new ItemStack(ItemInit.ENERGY_CRYSTAL.get())));
+        nbtTagList.add(InventoryUtil.addItem(registries, 7, new ItemStack(ItemInit.TRANSFER_CRYSTAL.get())));
+
+        return nbtTagList;
+    }
+
+    @Override
+    public @NotNull ItemStack getCloneItemStack(BlockState state, HitResult target, LevelReader level, BlockPos pos, Player player){
+        return CameleonDHDBlock.CrystalSetup(level.registryAccess());
+    }
+
 }

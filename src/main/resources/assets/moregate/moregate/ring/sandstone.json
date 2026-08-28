@@ -1,0 +1,6 @@
+{
+  "texture" : "textures/entity/ring/sandstone/sandstone_texture.png",
+  "active_texture" : "textures/entity/ring/sandstone/sandstone_active_texture.png",
+  "ring_texture" : "textures/entity/ring/sandstone/sandstone_ring_texture.png",
+  "ring_active_texture" : "textures/entity/ring/sandstone/sandstone_ring_texture.png"
+}

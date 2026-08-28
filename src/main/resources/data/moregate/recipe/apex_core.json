@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "mekanism:advanced_induction_cell"
+      "item": "sgjourney:plasma_converter"
     },
     "B": {
-      "item": "mekanism:ingot_steel"
+      "item": "sgjourney:naquadah_ingot"
     },
     "C": {
-      "item": "mekanism:ultimate_control_circuit"
+      "item": "sgjourney:energy_crystal"
     }
   },
   "pattern": [

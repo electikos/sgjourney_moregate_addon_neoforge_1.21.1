@@ -3,6 +3,7 @@ package org.example.muc.moregate;
 import com.mojang.authlib.minecraft.client.MinecraftClient;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -40,6 +41,8 @@ import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import net.povstalec.sgjourney.common.init.TabInit;
 import net.povstalec.sgjourney.common.init.TransporterInit;
 import org.example.muc.moregate.block.ModBlocks;
+import org.example.muc.moregate.block.custom.CameleonDHDBlock;
+import org.example.muc.moregate.block.custom.CameleonTransportRingBlock;
 import org.example.muc.moregate.blockEntity.ModBlockEntities;
 import org.example.muc.moregate.component.ModDataComponent;
 import org.example.muc.moregate.item.ModItems;
@@ -116,23 +119,23 @@ public class Moregate {
         /* if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.APEXCORE);
         } */
-        LOGGER.info(
-                "CREATIVE EVENT — dist={}, thread={}",
-                FMLEnvironment.dist,
-                Thread.currentThread().getName()
-        );
+
         if (event.getTabKey().equals(TabInit.STARGATE_ITEMS.getKey())){
-            event.accept(ModItems.APEXCORE);
+            event.accept(ModItems.APEXCORE.get());
+            ItemStack stack = new ItemStack(ModItems.APEXCORE.get());
+            stack.set(ModDataComponent.ENERGY, 270000000);
+            event.accept(stack);
             event.accept(ModItems.CAMELEON_TRANSPORT_RING);
         }
         else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())) {
 
-            event.accept(ModBlocks.CAMELEON_DHD);
+            HolderLookup.Provider parameters = event.getParameters().holders();
+            event.accept(CameleonDHDBlock.CrystalSetup(parameters));
             event.accept(ModItems.DHD_VARIANT_CRYSTAL);
 
 
             ResourceManager resourceManager;
-            if (ServerLifecycleHooks.getCurrentServer() == null) {
+            if (FMLEnvironment.dist == Dist.CLIENT) {
 
                 resourceManager = Minecraft.getInstance().getResourceManager();
             }else{
@@ -163,7 +166,7 @@ public class Moregate {
                     event.accept(stack);
             }
 
-            event.accept(ModBlocks.CAMELEON_TRANSPORT_RING);
+            event.accept(CameleonTransportRingBlock.transportRingsItemSetup(parameters));
             event.accept(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL);
 
             Map<ResourceLocation, Resource> resource =

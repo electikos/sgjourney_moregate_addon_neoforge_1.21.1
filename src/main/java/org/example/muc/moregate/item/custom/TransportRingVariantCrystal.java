@@ -28,13 +28,4 @@ public class TransportRingVariantCrystal extends Item{
         else tooltipComponents.add(Component.literal(""));
     }
 
-    @Override
-    public Component getName(ItemStack stack) {
-        return Component.literal(
-                "TPR " + stack.getOrDefault(
-                        ModDataComponent.TRASNPORT_RING_VARIANT,
-                        "EMPTY"
-                )
-        );
-    }
 }

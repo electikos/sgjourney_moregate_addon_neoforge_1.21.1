@@ -18,3 +18,4 @@
 /weather clear
 /time set day
 /give Dev moregate:chisel
+/time set day

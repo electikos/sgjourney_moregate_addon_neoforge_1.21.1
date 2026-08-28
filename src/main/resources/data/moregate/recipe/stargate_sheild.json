@@ -1,17 +1,15 @@
 {
-  "minecraft:recipe_shapeless": {
-    "ingredients": [
-      {
-        "item": "sgjourney:personal_sheild_emittor",
-        "count": 1
-      },
-      {
-        "item": "sgjourney:stargate_sheilding_ring",
-        "count": 1
-      }
-    ],
-    "result": {
-      "item": "moregate:stargate_sheild"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sgjourney:personal_shield_emitter"
+    },
+    {
+      "item": "sgjourney:stargate_shielding_ring"
     }
+  ],
+  "result": {
+    "id": "moregate:stargate_sheild",
+    "count": 1
   }
 }

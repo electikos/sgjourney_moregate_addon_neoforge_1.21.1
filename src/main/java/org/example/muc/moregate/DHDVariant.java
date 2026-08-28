@@ -99,7 +99,7 @@ public class DHDVariant {
             return this.background;
         }
         else {
-            return StargateJourney.sgjourneyLocation("textures/gui/transporter_controller/ring_panel_gui.png");
+            return ResourceLocation.fromNamespaceAndPath("moregate","textures/entity/dhd/default/default_bg.png");
         }
     }
     public ResourceLocation getButton(){

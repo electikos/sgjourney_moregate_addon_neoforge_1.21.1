@@ -3,20 +3,25 @@ package org.example.muc.moregate.blockEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.Connection;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.povstalec.sgjourney.client.SyncedConfig;
 import net.povstalec.sgjourney.common.block_entities.StructureGenEntity;
+import net.povstalec.sgjourney.common.block_entities.dhd.AbstractDHDEntity;
 import net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity;
 import net.povstalec.sgjourney.common.block_entities.stargate.AbstractStargateEntity;
+import net.povstalec.sgjourney.common.block_entities.tech.EnergyBlockEntity;
 import net.povstalec.sgjourney.common.config.CommonDHDConfig;
 import net.povstalec.sgjourney.common.config.CommonNaquadahGeneratorConfig;
 import net.povstalec.sgjourney.common.init.ItemInit;
@@ -26,6 +31,7 @@ import net.povstalec.sgjourney.common.misc.CoordinateHelper;
 import net.povstalec.sgjourney.common.sgjourney.PointOfOrigin;
 import net.povstalec.sgjourney.common.sgjourney.Symbols;
 import org.example.muc.moregate.DHDVariant;
+import org.example.muc.moregate.block.ModBlocks;
 import org.example.muc.moregate.component.ModDataComponent;
 import org.jetbrains.annotations.NotNull;
 
@@ -44,7 +50,7 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
         super.loadAdditional(tag, registries);
         if (tag.contains("VariantCrystal")) {variantCrystalHandler.deserializeNBT(registries, tag.getCompound("VariantCrystal"));}
 
-        symbolInfo().loadFromCompoundTag(tag, POINT_OF_ORIGIN, SYMBOLS);
+
     }
     @Override
     public @NotNull CompoundTag getUpdateTag(HolderLookup.Provider registries) {
@@ -80,14 +86,6 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
         CompoundTag tag = packet.getTag();
         if(tag != null)
             handleUpdateTag(tag, registries);
-        if (tag.contains("VariantCrystal")) {variantCrystalHandler.deserializeNBT(registries, tag.getCompound("VariantCrystal"));}
-        if (level != null && level.isClientSide) {
-            try {
-                update();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
     }
     @Override
     public void onLoad() {
@@ -104,13 +102,21 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
 
     }
 
+    public static void tick(Level level, BlockPos pos, BlockState state, AbstractDHDEntity dhd)
+    {
+        if(level.isClientSide())
+            return;
+
+        dhd.outputEnergy(null);
+
+        if(level.getGameTime() % 20 == 0) dhd.stargateCache.markDirty();
+    }
+
     @Override
     protected void saveAdditional(@NotNull CompoundTag tag, HolderLookup.Provider registries)
     {
         super.saveAdditional(tag, registries);
         tag.put("VariantCrystal", variantCrystalHandler.serializeNBT(registries));
-
-        symbolInfo().saveToCompoundTag(tag, POINT_OF_ORIGIN, SYMBOLS);
     }
 
     @Override
@@ -215,4 +221,5 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
         crystalHandler.setStackInSlot(5, new ItemStack(ItemInit.ENERGY_CRYSTAL.get()));
         crystalHandler.setStackInSlot(7, new ItemStack(ItemInit.TRANSFER_CRYSTAL.get()));
     }
+
 }
