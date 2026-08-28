@@ -2,15 +2,15 @@
   "item.moregate.apex_core": "Apex core",
   "item.moregate.dhd_variant_crystal": "DHD variant crystal",
   "item.moregate.transport_ring_variant_crystal": "Transport ring variant crystal",
-  "item.moregate.cameleon_transport_ring_item": "Cameleon transport ring",
+  "item.moregate.cameleon_transport_ring_item": "Chameleon transport ring",
   "item.moregate.stargate_sheild": "Stargate shield",
   "item.moregate.chisel": "Chisel",
 
-  "block.moregate.cameleon_dhd" : "Cameleon DHD",
-  "block.moregate.cameleon_transport_ring" : "Cameleon transport rings",
+  "block.moregate.cameleon_dhd" : "Chameleon DHD",
+  "block.moregate.cameleon_transport_ring" : "Chameleon transport rings",
 
   "advancements.moregate.meccha_dhd.title" : "Meccha DHD",
-  "advancements.moregate.meccha_dhd.description" : "Obtain the meccha cameleon of DHDs.",
+  "advancements.moregate.meccha_dhd.description" : "Obtain the meccha chameleon of DHDs.",
 
   "moregate.tooltip.apex_core.energy_too_high" : "Stored Energy is too high for recharge.",
 

@@ -6,6 +6,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import org.example.muc.moregate.component.ModDataComponent;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -25,5 +26,15 @@ public class TransportRingVariantCrystal extends Item{
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag){
         if(stack.has(ModDataComponent.TRASNPORT_RING_VARIANT)) {tooltipComponents.add(Component.literal(stack.get(ModDataComponent.TRASNPORT_RING_VARIANT)).withStyle(ChatFormatting.GREEN));}
         else tooltipComponents.add(Component.literal(""));
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        return Component.literal(
+                "TPR " + stack.getOrDefault(
+                        ModDataComponent.TRASNPORT_RING_VARIANT,
+                        "EMPTY"
+                )
+        );
     }
 }

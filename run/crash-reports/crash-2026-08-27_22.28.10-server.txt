@@ -1,0 +1,116 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 2026-08-27 22:28:10
+Description: Exception in server tick loop
+
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- moregate (moregate) encountered an error while dispatching the net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent event
+	  java.lang.IllegalArgumentException: Itemstack 1 moregate:dhd_variant_crystal already exists in the tab's list
+
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181) ~[loader-4.0.42.jar%23134!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-4.0.42.jar%23134!/:4.0] {re:mixin}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.42.jar%23134!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-4.0.42.jar%23134!/:4.0] {re:mixin}
+	at TRANSFORMER/neoforge@21.1.219/net.neoforged.neoforge.event.EventHooks.onCreativeModeTabBuildContents(EventHooks.java:1121) ~[neoforge-21.1.219.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.CreativeModeTab.buildContents(CreativeModeTab.java:147) ~[neoforge-21.1.219.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.CreativeModeTabs.lambda$buildAllTabContents$48(CreativeModeTabs.java:1957) ~[neoforge-21.1.219.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?] {re:mixin}
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?] {}
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.CreativeModeTabs.buildAllTabContents(CreativeModeTabs.java:1957) ~[neoforge-21.1.219.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.CreativeModeTabs.tryRebuildTabContents(CreativeModeTabs.java:1966) ~[neoforge-21.1.219.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/moregate@1.0.1/org.example.muc.moregate.Moregate.onServerStarted(Moregate.java:104) ~[%23193!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23138!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23138!/:?] {}
+	at TRANSFORMER/neoforge@21.1.219/net.neoforged.neoforge.server.ServerLifecycleHooks.handleServerStarted(ServerLifecycleHooks.java:113) ~[neoforge-21.1.219.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:680) [neoforge-21.1.219.jar%23184!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) [neoforge-21.1.219.jar%23184!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-136-generic
+	Java Version: 25.0.2, JetBrains s.r.o.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), JetBrains s.r.o.
+	Memory: 581581096 bytes (554 MiB) / 1369440256 bytes (1306 MiB) up to 3114270720 bytes (2970 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
+	Identifier: Intel64 Family 6 Model 71 Stepping 1
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.70
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: HD Graphics 5600
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x1612
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 16177.50
+	Virtual memory used (MiB): 10098.74
+	Swap memory total (MiB): 10240.00
+	Swap memory used (MiB): 1111.14
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1156.48, total: 1187.50
+	Space in storage for workdir (MiB): available: 547312.69, total: 937289.06
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 8; []
+	Active Data Packs: create:dynamic_data, vanilla, mod_data, mod/guideme, mod/computercraft (incompatible), mod/jei (incompatible), mod/cloth_config (incompatible), mod/flywheel (incompatible), mod/ponder (incompatible), mod/create (incompatible), mod/moregate, mod/effortlessbuilding (incompatible), mod/stellarview, mod/sgjourney, mod/neoforge
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/cloth_config (incompatible), mod/computercraft (incompatible), mod/create (incompatible), mod/effortlessbuilding (incompatible), mod/flywheel (incompatible), mod/guideme, mod/jei (incompatible), mod/moregate, mod/neoforge, mod/ponder (incompatible), mod/sgjourney, mod/stellarview, mod_data, create:dynamic_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: 2865712686384056400
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.1.219
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		cc-tweaked-1.21.1-forge-1.117.0.jar               |CC: Tweaked                   |computercraft                 |1.117.0             |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		create-1.21.1-6.0.6.jar                           |Create                        |create                        |6.0.6               |Manifest: NOSIGNATURE
+		effortlessbuilding-1.21.1-3.10-all.jar            |Effortless Building           |effortlessbuilding            |3.10                |Manifest: NOSIGNATURE
+		flywheel-neoforge-1.21.1-1.0.2.jar                |Flywheel                      |flywheel                      |1.0.2               |Manifest: NOSIGNATURE
+		guideme-21.1.15.jar                               |GuideME                       |guideme                       |21.1.15             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.21.2.313.jar               |Just Enough Items             |jei                           |19.21.2.313         |Manifest: NOSIGNATURE
+		neoforge-21.1.219.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		main                                              |moregate                      |moregate                      |1.0.1               |Manifest: NOSIGNATURE
+		neoforge-21.1.219.jar                             |NeoForge                      |neoforge                      |21.1.219            |Manifest: NOSIGNATURE
+		Ponder-NeoForge-1.21.1-1.0.56.jar                 |Ponder                        |ponder                        |1.0.56              |Manifest: NOSIGNATURE
+		qlc8dxM6-mN7N7svf.jar                             |Stargate Journey              |sgjourney                     |0.6.48-hotfix1      |Manifest: NOSIGNATURE
+		Stellar View-1.21.1-0.5.2-NeoForge.jar            |Stellar View                  |stellarview                   |0.5.2               |Manifest: NOSIGNATURE
+	Crash Report UUID: 61e5b89a-e239-4ae1-8400-ba4fd0e5263a
+	FML: 4.0.42
+	NeoForge: 21.1.219
+	Flywheel Backend: flywheel:instancing

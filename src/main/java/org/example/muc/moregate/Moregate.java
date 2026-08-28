@@ -1,5 +1,6 @@
 package org.example.muc.moregate;
 
+import com.mojang.authlib.minecraft.client.MinecraftClient;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -24,6 +25,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
@@ -80,6 +82,7 @@ public class Moregate {
         modEventBus.addListener(this::addCreative);
 
 
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -98,11 +101,10 @@ public class Moregate {
 
     @SubscribeEvent
     public void onServerStarted(ServerStartedEvent event) {
-        MinecraftServer server = event.getServer();
-
-    CreativeModeTabs.tryRebuildTabContents(server.getWorldData().enabledFeatures(), false, server.registryAccess());
-
+        MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
+        CreativeModeTabs.tryRebuildTabContents(server.getWorldData().enabledFeatures(), false, server.registryAccess());
     }
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -114,66 +116,79 @@ public class Moregate {
         /* if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.APEXCORE);
         } */
+        LOGGER.info(
+                "CREATIVE EVENT — dist={}, thread={}",
+                FMLEnvironment.dist,
+                Thread.currentThread().getName()
+        );
         if (event.getTabKey().equals(TabInit.STARGATE_ITEMS.getKey())){
             event.accept(ModItems.APEXCORE);
             event.accept(ModItems.CAMELEON_TRANSPORT_RING);
         }
-        else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())){
+        else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())) {
 
             event.accept(ModBlocks.CAMELEON_DHD);
             event.accept(ModItems.DHD_VARIANT_CRYSTAL);
-            MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
-            ResourceManager resourceManager = server.getResourceManager();
-            if (resourceManager == null) {
 
-                return;
-            }
+
+            ResourceManager resourceManager;
+            if (ServerLifecycleHooks.getCurrentServer() == null) {
+
+                resourceManager = Minecraft.getInstance().getResourceManager();
+            }else{
+                MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
+
+
+                resourceManager = server.getResourceManager();}
+
 
             Map<ResourceLocation, Resource> resources =
-                    resourceManager.listResources(
-                            "moregate/dhd",
-                            path -> path.getPath().endsWith(".json")
-                    );
+                        resourceManager.listResources(
+                                "moregate/dhd",
+                                path -> path.getPath().endsWith(".json")
+                        );
 
 
             for (ResourceLocation location : resources.keySet()) {
-                String namespace = location.getNamespace();
-                String path = location.getPath();
+                    String namespace = location.getNamespace();
+                    String path = location.getPath();
 
-                String variant = path.substring("moregate/dhd/".length()).replace(".json", "");
+                    String variant = path.substring("moregate/dhd/".length()).replace(".json", "");
 
-                ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
-                ItemStack stack = new ItemStack(ModItems.DHD_VARIANT_CRYSTAL.get());
+                    ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
+                    ItemStack stack = new ItemStack(ModItems.DHD_VARIANT_CRYSTAL.get());
 
-                stack.set(ModDataComponent.DHD_VARIANT, variantId.toString());
+                    stack.set(ModDataComponent.DHD_VARIANT, variantId.toString());
 
-                event.accept(stack);
+                    event.accept(stack);
             }
 
             event.accept(ModBlocks.CAMELEON_TRANSPORT_RING);
             event.accept(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL);
 
             Map<ResourceLocation, Resource> resource =
-                    resourceManager.listResources(
-                            "moregate/ring",
-                            path -> path.getPath().endsWith(".json")
-                    );
+                        resourceManager.listResources(
+                                "moregate/ring",
+                                path -> path.getPath().endsWith(".json")
+                        );
 
             for (ResourceLocation location : resource.keySet()) {
-                String namespace = location.getNamespace();
-                String path = location.getPath();
+                    String namespace = location.getNamespace();
+                    String path = location.getPath();
 
-                String variant = path.substring("moregate/ring/".length()).replace(".json", "");
+                    String variant = path.substring("moregate/ring/".length()).replace(".json", "");
 
-                ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
-                ItemStack stack = new ItemStack(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL.get());
+                    ResourceLocation variantId = ResourceLocation.fromNamespaceAndPath(namespace, variant);
+                    ItemStack stack = new ItemStack(ModItems.TRANSPORT_RING_VARIANT_CRYSTAL.get());
 
-                stack.set(ModDataComponent.TRASNPORT_RING_VARIANT, variantId.toString());
+                    stack.set(ModDataComponent.TRASNPORT_RING_VARIANT, variantId.toString());
 
-                event.accept(stack);
-            }
+                    event.accept(stack);
+                }
 
             event.accept(ModItems.STARGATE_SHEILD);
+
+
         }
 
     }

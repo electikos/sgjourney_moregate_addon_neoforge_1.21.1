@@ -111,6 +111,7 @@ dependencies {
     // The group id is ignored when searching -- in this case, it is "blank"
     // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
     implementation "maven.modrinth:qlc8dxM6:mN7N7svf"
+    compileOnly "maven.modrinth:u6dRKJwZ:ohmiCtBQ"
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
 
