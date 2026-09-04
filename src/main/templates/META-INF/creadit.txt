@@ -1,0 +1,33 @@
+This is a list of all the stargate variant that were made by struxnet :
+-andromeda
+-create
+-doom
+-forerunner
+-horizon
+-ori
+
+
+This is a list of all the stargate variant that were made by Aspect_Xero or Crimson :
+-ancient
+-apex
+-bloodgate
+-crafter
+-create_mw
+-dark_ascension
+-end
+-galifrey
+-icarus
+-industrial
+-jumpgate
+-makeshift
+-mossy
+-nether
+-nox
+-quantum
+-retrogate
+-silence
+-spatial
+-streamline
+-universe_mk2
+-universe_mk3
+-warpgate

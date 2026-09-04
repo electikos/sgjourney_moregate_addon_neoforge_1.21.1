@@ -1,13 +1,13 @@
-[28août2026 17:51:23.815] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
-[28août2026 17:51:23.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 25.0.2+10-b329.72
-[28août2026 17:51:23.821] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by JetBrains s.r.o.; OS Linux arch amd64 version 6.8.0-136-generic
-[28août2026 17:51:24.124] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[28août2026 17:51:24.499] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[28août2026 17:51:24.701] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[28août2026 17:51:24.918] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Mesa Intel(R) HD Graphics 5600 (BDW GT2) GL version 4.6 (Core Profile) Mesa 26.1.5 (git-6a02618ccf), Intel
-[28août2026 17:51:24.957] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/bastian/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
-[28août2026 17:51:25.662] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[28août2026 17:51:25.664] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[04sept.2026 16:57:09.441] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
+[04sept.2026 16:57:09.444] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 25.0.2+10-b329.72
+[04sept.2026 16:57:09.446] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by JetBrains s.r.o.; OS Linux arch amd64 version 6.8.0-136-generic
+[04sept.2026 16:57:09.627] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[04sept.2026 16:57:09.924] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[04sept.2026 16:57:10.400] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[04sept.2026 16:57:10.565] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Mesa Intel(R) HD Graphics 5600 (BDW GT2) GL version 4.6 (Core Profile) Mesa 26.1.5 (git-6a02618ccf), Intel
+[04sept.2026 16:57:10.607] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/bastian/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
+[04sept.2026 16:57:11.378] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[04sept.2026 16:57:11.382] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -19,34 +19,34 @@
 		GuideME 21.1.15 (guideme)
 		Just Enough Items 19.21.2.313 (jei)
 		Minecraft 1.21.1 (minecraft)
-		moregate 1.0.2 (moregate)
+		moregate 1.1.2 (moregate)
 		NeoForge 21.1.219 (neoforge)
 		Ponder 1.0.56 (ponder)
 		Stargate Journey 0.6.48-hotfix1 (sgjourney)
 		Stellar View 0.5.2 (stellarview)
-[28août2026 17:51:27.186] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[28août2026 17:51:27.284] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
-[28août2026 17:51:27.386] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
-[28août2026 17:51:27.390] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[28août2026 17:51:27.392] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
-[28août2026 17:51:29.091] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[28août2026 17:51:33.104] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 667 milliseconds
-[28août2026 17:51:41.209] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28août2026 17:51:41.211] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28août2026 17:51:41.214] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28août2026 17:51:41.216] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[28août2026 17:51:41.218] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[28août2026 17:51:41.397] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23184!/assets/.mcassetsroot' uses unexpected schema
-[28août2026 17:51:41.397] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23184!/data/.mcassetsroot' uses unexpected schema
-[28août2026 17:51:41.432] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[28août2026 17:51:41.442] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[28août2026 17:51:41.608] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[28août2026 17:51:41.868] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
-[28août2026 17:51:42.031] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
-[28août2026 17:51:42.384] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[28août2026 17:51:42.418] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 24.92 milliseconds
-[28août2026 17:51:48.864] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [moregate]
-[28août2026 17:51:49.189] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
+[04sept.2026 16:57:12.688] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[04sept.2026 16:57:12.734] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/bastian/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
+[04sept.2026 16:57:12.827] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[04sept.2026 16:57:12.828] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04sept.2026 16:57:12.830] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[04sept.2026 16:57:13.891] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04sept.2026 16:57:17.104] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 774 milliseconds
+[04sept.2026 16:57:26.087] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04sept.2026 16:57:26.089] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04sept.2026 16:57:26.093] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04sept.2026 16:57:26.095] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04sept.2026 16:57:26.096] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04sept.2026 16:57:26.228] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[04sept.2026 16:57:26.228] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bastian/Documents/minecraft/project/moregate/build/moddev/artifacts/neoforge-21.1.219.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[04sept.2026 16:57:26.250] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04sept.2026 16:57:26.259] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[04sept.2026 16:57:26.385] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[04sept.2026 16:57:26.711] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
+[04sept.2026 16:57:26.957] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
+[04sept.2026 16:57:27.130] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[04sept.2026 16:57:27.135] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.243 milliseconds
+[04sept.2026 16:57:33.880] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [moregate]
+[04sept.2026 16:57:34.607] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
 com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%23110!/:?]
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
@@ -168,54 +168,54 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/bast
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 		at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:49.213] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/guideme, mod/computercraft, mod/cloth_config, mod/flywheel, mod/ponder, mod/create, mod/moregate, mod/jei, mod/effortlessbuilding, mod/stellarview, mod/sgjourney, mod/neoforge
-[28août2026 17:51:49.227] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM COMMON SETUP
-[28août2026 17:51:49.228] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: DIRT BLOCK >> minecraft:dirt
-[28août2026 17:51:49.228] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: The magic number is... 42
-[28août2026 17:51:49.228] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: ITEM >> minecraft:iron_ingot
-[28août2026 17:51:49.307] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[28août2026 17:51:49.373] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[28août2026 17:51:49.374] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[28août2026 17:51:49.619] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM CLIENT SETUP
-[28août2026 17:51:49.620] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: MINECRAFT NAME >> Dev
-[28août2026 17:51:49.718] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: moregate:textures/symbol/elec/elec (copie).png, ignoring
-[28août2026 17:51:50.094] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.117.0 Target: null
-[28août2026 17:51:52.193] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=west'
-[28août2026 17:51:52.193] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=east'
-[28août2026 17:51:52.193] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=north'
-[28août2026 17:51:52.194] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=south'
-[28août2026 17:51:52.194] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=false,facing=up'
-[28août2026 17:51:52.194] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=true,facing=up'
-[28août2026 17:51:52.194] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=true,facing=down'
-[28août2026 17:51:52.194] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=false,facing=down'
-[28août2026 17:51:54.516] [Worker-Main-4/INFO] [PonderIndex/]: Registering Ponder Scenes took 92.24 ms
-[28août2026 17:51:54.520] [Worker-Main-4/INFO] [PonderIndex/]: Registering Ponder Tags took 3.980 ms
-[28août2026 17:51:54.817] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_trinium_armor', args=[]} for sound event: sgjourney:equip_trinium_armor
-[28août2026 17:51:54.818] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_naquadah_armor', args=[]} for sound event: sgjourney:equip_naquadah_armor
-[28août2026 17:51:54.822] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[28août2026 17:51:54.822] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[28août2026 17:51:54.884] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Built-in Audio Stéréo analogique
-[28août2026 17:51:54.885] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[28août2026 17:51:55.003] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[28août2026 17:51:55.041] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[28août2026 17:51:55.042] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[28août2026 17:51:55.043] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[28août2026 17:51:55.045] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[28août2026 17:51:55.058] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[28août2026 17:51:55.058] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[28août2026 17:51:55.059] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[28août2026 17:51:55.059] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[28août2026 17:51:55.149] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[28août2026 17:51:55.152] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[28août2026 17:51:55.153] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[28août2026 17:51:55.153] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[28août2026 17:51:55.154] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[28août2026 17:51:55.204] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[28août2026 17:51:55.343] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
-[28août2026 17:51:55.370] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 23,460 ms
-[28août2026 17:51:55.395] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
-[28août2026 17:51:55.395] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
-[28août2026 17:51:55.480] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:34.655] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/guideme, mod/computercraft, mod/cloth_config, mod/flywheel, mod/ponder, mod/create, mod/moregate, mod/jei, mod/effortlessbuilding, mod/stellarview, mod/sgjourney, mod/neoforge
+[04sept.2026 16:57:34.682] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM COMMON SETUP
+[04sept.2026 16:57:34.683] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: DIRT BLOCK >> minecraft:dirt
+[04sept.2026 16:57:34.687] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: The magic number is... 42
+[04sept.2026 16:57:34.687] [Worker-Main-3/INFO] [org.example.muc.moregate.Moregate/]: ITEM >> minecraft:iron_ingot
+[04sept.2026 16:57:34.820] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[04sept.2026 16:57:34.900] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[04sept.2026 16:57:34.902] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[04sept.2026 16:57:35.136] [Worker-Main-1/INFO] [org.example.muc.moregate.Moregate/]: HELLO FROM CLIENT SETUP
+[04sept.2026 16:57:35.137] [Worker-Main-1/INFO] [org.example.muc.moregate.Moregate/]: MINECRAFT NAME >> Dev
+[04sept.2026 16:57:35.350] [Worker-Main-5/ERROR] [net.minecraft.Util/]: Invalid path in pack: moregate:textures/symbol/elec/elec (copie).png, ignoring
+[04sept.2026 16:57:35.761] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.117.0 Target: null
+[04sept.2026 16:57:38.205] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=west'
+[04sept.2026 16:57:38.206] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=east'
+[04sept.2026 16:57:38.206] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=north'
+[04sept.2026 16:57:38.207] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_dhd.json' missing model for variant: 'moregate:cameleon_dhd#facing=south'
+[04sept.2026 16:57:38.207] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=false,facing=up'
+[04sept.2026 16:57:38.207] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=true,facing=up'
+[04sept.2026 16:57:38.207] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=true,facing=down'
+[04sept.2026 16:57:38.207] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'moregate:blockstates/cameleon_transport_ring.json' missing model for variant: 'moregate:cameleon_transport_ring#activated=false,facing=down'
+[04sept.2026 16:57:40.926] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Scenes took 127.4 ms
+[04sept.2026 16:57:40.932] [Worker-Main-6/INFO] [PonderIndex/]: Registering Ponder Tags took 5.463 ms
+[04sept.2026 16:57:41.241] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_trinium_armor', args=[]} for sound event: sgjourney:equip_trinium_armor
+[04sept.2026 16:57:41.242] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sounds.sgjourney.equip_naquadah_armor', args=[]} for sound event: sgjourney:equip_naquadah_armor
+[04sept.2026 16:57:41.249] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[04sept.2026 16:57:41.249] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[04sept.2026 16:57:41.324] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Built-in Audio Stéréo analogique
+[04sept.2026 16:57:41.327] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[04sept.2026 16:57:41.522] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[04sept.2026 16:57:41.610] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[04sept.2026 16:57:41.613] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04sept.2026 16:57:41.617] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04sept.2026 16:57:41.620] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[04sept.2026 16:57:41.638] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[04sept.2026 16:57:41.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04sept.2026 16:57:41.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04sept.2026 16:57:41.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04sept.2026 16:57:41.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[04sept.2026 16:57:41.754] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04sept.2026 16:57:41.755] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04sept.2026 16:57:41.755] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[04sept.2026 16:57:41.755] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[04sept.2026 16:57:41.804] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[04sept.2026 16:57:41.994] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
+[04sept.2026 16:57:42.030] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 30,629 ms
+[04sept.2026 16:57:42.065] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[04sept.2026 16:57:42.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[04sept.2026 16:57:42.186] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -251,7 +251,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.482] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/edfu
+[04sept.2026 16:57:42.189] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/edfu
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -287,7 +287,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.487] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.198] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -323,7 +323,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.488] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/naturo
+[04sept.2026 16:57:42.199] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/naturo
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -359,7 +359,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.492] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.204] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -395,7 +395,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.493] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/dja_net
+[04sept.2026 16:57:42.207] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/dja_net
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -431,7 +431,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.525] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.246] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:lantea"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -467,7 +467,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.526] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/pegasus/lantea_system/lantea_moon
+[04sept.2026 16:57:42.247] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/pegasus/lantea_system/lantea_moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:lantea"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -503,7 +503,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.533] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.254] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -539,7 +539,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.535] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/vox
+[04sept.2026 16:57:42.257] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/vox
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -575,7 +575,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.555] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.273] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -611,7 +611,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.557] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/chulak_system/jerbaas
+[04sept.2026 16:57:42.275] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/chulak_system/jerbaas
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -647,7 +647,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.561] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.280] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -683,7 +683,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.564] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/parva
+[04sept.2026 16:57:42.281] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/parva
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -719,8 +719,8 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.603] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not set Sol as a distinct Space Object because it has already been set
-[28août2026 17:51:55.616] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.317] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not set Sol as a distinct Space Object because it has already been set
+[04sept.2026 16:57:42.330] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -756,7 +756,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.623] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/edfu
+[04sept.2026 16:57:42.334] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/edfu
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -792,7 +792,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.635] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.339] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -828,7 +828,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.637] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/naturo
+[04sept.2026 16:57:42.342] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/naturo
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -864,7 +864,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.642] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.345] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -900,7 +900,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.644] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/dja_net
+[04sept.2026 16:57:42.347] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/abydos_system/dja_net
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -936,7 +936,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.674] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.358] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:lantea"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -972,7 +972,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.677] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/pegasus/lantea_system/lantea_moon
+[04sept.2026 16:57:42.359] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/pegasus/lantea_system/lantea_moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:lantea"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -1008,7 +1008,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.692] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.363] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -1044,7 +1044,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.697] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/vox
+[04sept.2026 16:57:42.364] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/vox
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -1080,7 +1080,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.705] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.368] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -1116,7 +1116,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.711] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/chulak_system/jerbaas
+[04sept.2026 16:57:42.369] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/chulak_system/jerbaas
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -1152,7 +1152,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.719] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
+[04sept.2026 16:57:42.372] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Failed to parse Moon
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) [Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) [datafixerupper-8.0.16.jar%23107!/:?]
@@ -1188,7 +1188,7 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.723] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/parva
+[04sept.2026 16:57:42.375] [Render thread/ERROR] [net.povstalec.stellarview.StellarView/]: Could not load sgjourney:moon/milky_way/rima_system/parva
 java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanced_celestials_moon_dimension":"sgjourney:chulak"}]
 	at TRANSFORMER/stellarview@0.5.2/net.povstalec.stellarview.client.resourcepack.ResourcepackReloadListener.lambda$loggedExceptionProvider$0(ResourcepackReloadListener.java:468) ~[Stellar%20View-1.21.1-0.5.2-NeoForge.jar%23192!/:0.5.2-NeoForge]
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
@@ -1224,10 +1224,10 @@ java.lang.IllegalStateException: No key lunar_moon_dimension in MapLike[{"enhanc
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:51:55.957] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[28août2026 17:52:22.491] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[28août2026 17:52:22.497] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[28août2026 17:52:23.684] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/quantum_variant_crystal
+[04sept.2026 16:57:42.486] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[04sept.2026 17:01:16.636] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[04sept.2026 17:01:16.644] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[04sept.2026 17:01:18.449] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/quantum_variant_crystal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: {"item":"mekanism:quantum_entangloporter"}; Second: No key tag in MapLike[{"item":"mekanism:quantum_entangloporter"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mekanism:quantum_entangloporter
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) [neoforge-21.1.219.jar%23184!/:?]
@@ -1283,7 +1283,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:52:23.734] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/retrogate_variant_crystal
+[04sept.2026 17:01:18.521] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/retrogate_variant_crystal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: {"item":"ae2:fluix_pearl"}; Second: No key tag in MapLike[{"item":"ae2:fluix_pearl"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: ae2:fluix_pearl
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) [neoforge-21.1.219.jar%23184!/:?]
@@ -1339,7 +1339,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:52:23.837] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/spatial_variant_crystal
+[04sept.2026 17:01:18.706] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe moregate:crystallizing/spatial_variant_crystal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: {"item":"ae2:singularity"}; Second: No key tag in MapLike[{"item":"ae2:singularity"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: ae2:singularity
 	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23107!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) [neoforge-21.1.219.jar%23184!/:?]
@@ -1395,133 +1395,146 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
 	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[28août2026 17:52:23.868] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3458 recipes
-[28août2026 17:52:24.151] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2606 advancements
-[28août2026 17:52:24.156] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_library_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
-[28août2026 17:52:24.157] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:muscles_loot_modifier - error: Not a JSON object: "effortlessbuilding:muscles"
-[28août2026 17:52:24.157] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
-[28août2026 17:52:24.158] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:elastic_hand_loot_modifier - error: Not a JSON object: "effortlessbuilding:elastic_hand"
-[28août2026 17:52:26.071] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[28août2026 17:52:26.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28août2026 17:52:29.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28août2026 17:52:30.202] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28août2026 17:52:30.203] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28août2026 17:52:30.572] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[28août2026 17:52:30.573] [Server thread/INFO] [org.example.muc.moregate.Moregate/]: HELLO from server starting
-[28août2026 17:52:30.585] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1065 ms
-[28août2026 17:52:30.650] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Space Locations registered
-[28août2026 17:52:30.687] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Transporter Network is up to date (Version: 3)
-[28août2026 17:52:31.409] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[28août2026 17:52:31.410] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[28août2026 17:52:32.147] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[28août2026 17:52:32.151] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[28août2026 17:52:32.752] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6825697b] logged in with entity id 97 at (17.40088695073167, 65.0, -41.99996974791293)
-[28août2026 17:52:32.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[28août2026 17:52:33.337] [Render thread/INFO] [flywheel/]: Started 2 worker threads
-[28août2026 17:52:33.392] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[28août2026 17:52:33.400] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[28août2026 17:52:33.407] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 6.406 milliseconds
-[28août2026 17:52:33.407] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[28août2026 17:52:33.410] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.519 milliseconds
-[28août2026 17:52:33.413] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[28août2026 17:52:33.468] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 7 duplicate items were found in 'Stargate Journey - Items' creative tab's: displayItems
+[04sept.2026 17:01:18.759] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3458 recipes
+[04sept.2026 17:01:19.506] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2606 advancements
+[04sept.2026 17:01:19.512] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_library_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
+[04sept.2026 17:01:19.514] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:muscles_loot_modifier - error: Not a JSON object: "effortlessbuilding:muscles"
+[04sept.2026 17:01:19.514] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:building_techniques_book_loot_modifier - error: Not a JSON object: "effortlessbuilding:building_techniques_book"
+[04sept.2026 17:01:19.515] [Render thread/WARN] [net.neoforged.neoforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id effortlessbuilding:elastic_hand_loot_modifier - error: Not a JSON object: "effortlessbuilding:elastic_hand"
+[04sept.2026 17:01:22.509] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[04sept.2026 17:01:22.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04sept.2026 17:01:26.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04sept.2026 17:01:27.387] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04sept.2026 17:01:27.387] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04sept.2026 17:01:27.685] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 930 ms
+[04sept.2026 17:01:27.685] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[04sept.2026 17:01:27.686] [Server thread/INFO] [org.example.muc.moregate.Moregate/]: HELLO from server starting
+[04sept.2026 17:01:27.751] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Space Locations registered
+[04sept.2026 17:01:27.785] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Transporter Network is up to date (Version: 3)
+[04sept.2026 17:01:28.292] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[04sept.2026 17:01:28.292] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[04sept.2026 17:01:28.866] [Render thread/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[04sept.2026 17:01:28.870] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[04sept.2026 17:01:29.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:9fe3f762] logged in with entity id 99 at (24.412724874717625, 67.0, -34.10926780343002)
+[04sept.2026 17:01:29.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[04sept.2026 17:01:30.053] [Render thread/INFO] [flywheel/]: Started 2 worker threads
+[04sept.2026 17:01:30.123] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[04sept.2026 17:01:30.135] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[04sept.2026 17:01:30.144] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 8.381 milliseconds
+[04sept.2026 17:01:30.144] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[04sept.2026 17:01:30.150] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 5.508 milliseconds
+[04sept.2026 17:01:30.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[04sept.2026 17:01:30.215] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: 7 duplicate items were found in 'Stargate Journey - Items' creative tab's: displayItems
 This may indicate that these types of item need a subtype interpreter added to JEI:
-[sgjourney:vial, moregate:apex_core, sgjourney:naquadah_power_cell, sgjourney:syringe]
-[28août2026 17:52:33.496] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 83.12 milliseconds
-[28août2026 17:52:33.497] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 84.51 milliseconds
-[28août2026 17:52:33.498] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
-[28août2026 17:52:33.505] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 7.133 milliseconds
-[28août2026 17:52:33.506] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
-[28août2026 17:52:33.508] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 1.623 milliseconds
-[28août2026 17:52:33.527] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
-[28août2026 17:52:33.529] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.674 milliseconds
-[28août2026 17:52:33.549] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[28août2026 17:52:33.570] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 20.24 milliseconds
-[28août2026 17:52:33.625] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 54.34 milliseconds
-[28août2026 17:52:33.638] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 88.64 milliseconds
-[28août2026 17:52:33.640] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[28août2026 17:52:33.646] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 4.961 milliseconds
-[28août2026 17:52:33.647] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[28août2026 17:52:33.652] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 4.240 milliseconds
-[28août2026 17:52:33.653] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[28août2026 17:52:33.671] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 17.42 milliseconds
-[28août2026 17:52:33.673] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[28août2026 17:52:33.677] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.client.integration.jei.RecipeResolver
-[28août2026 17:52:33.678] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 4.213 milliseconds
-[28août2026 17:52:33.679] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[28août2026 17:52:33.996] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 316.2 milliseconds
-[28août2026 17:52:34.194] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 197.5 milliseconds
-[28août2026 17:52:34.283] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 83.61 milliseconds
-[28août2026 17:52:34.283] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 603.9 milliseconds
-[28août2026 17:52:34.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[28août2026 17:52:34.299] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.114 milliseconds
-[28août2026 17:52:34.306] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[28août2026 17:52:34.311] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[28août2026 17:52:34.320] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 8.749 milliseconds
-[28août2026 17:52:34.325] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[28août2026 17:52:34.328] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[28août2026 17:52:34.328] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[28août2026 17:52:34.384] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 55.29 milliseconds
-[28août2026 17:52:34.384] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[28août2026 17:52:34.431] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2884 ingredients
-[28août2026 17:52:35.171] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2884 ingredients
-[28août2026 17:52:35.172] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 787.5 milliseconds
-[28août2026 17:52:35.242] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 915.7 milliseconds
-[28août2026 17:52:35.242] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 917.2 milliseconds
-[28août2026 17:52:35.243] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 936.3 milliseconds
-[28août2026 17:52:35.243] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[28août2026 17:52:35.245] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
-[28août2026 17:52:35.253] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 9.961 milliseconds
-[28août2026 17:52:35.254] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.862 seconds
-[28août2026 17:52:35.285] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 95 advancements
-[28août2026 17:53:12.355] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Set ID to -6-4-8-3-5-2-1-
-[28août2026 17:53:27.557] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Set ID to -5-1-5-1-8-1-3-
-[28août2026 17:54:03.081] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28août2026 17:54:03.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[28août2026 17:54:03.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
-[28août2026 17:54:03.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[28août2026 17:54:03.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
-[28août2026 17:54:03.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
-[28août2026 17:54:03.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:tollan
-[28août2026 17:54:03.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
-[28août2026 17:54:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
-[28août2026 17:54:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
-[28août2026 17:54:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:destiny
-[28août2026 17:54:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[28août2026 17:54:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
-[28août2026 17:54:03.847] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[28août2026 17:54:03.848] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[28août2026 17:54:03.850] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
-[28août2026 17:54:03.852] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 3.888 milliseconds
-[28août2026 17:54:03.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[28août2026 17:54:03.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[28août2026 17:54:04.065] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[28août2026 17:54:04.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28août2026 17:54:04.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28août2026 17:54:04.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28août2026 17:54:04.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[28août2026 17:54:05.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
-[28août2026 17:54:05.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[28août2026 17:54:05.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
-[28août2026 17:54:05.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
-[28août2026 17:54:05.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:tollan
-[28août2026 17:54:05.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
-[28août2026 17:54:05.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
-[28août2026 17:54:05.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
-[28août2026 17:54:05.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:destiny
-[28août2026 17:54:05.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[28août2026 17:54:05.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (athos): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tollan): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (unitas): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (rima): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[28août2026 17:54:05.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (destiny): All chunks are saved
-[28août2026 17:54:05.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28août2026 17:54:05.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[28août2026 17:54:05.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[28août2026 17:54:06.708] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[sgjourney:syringe, moregate:apex_core, sgjourney:vial, sgjourney:naquadah_power_cell]
+[04sept.2026 17:01:30.243] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 89.34 milliseconds
+[04sept.2026 17:01:30.245] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 91.43 milliseconds
+[04sept.2026 17:01:30.245] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[04sept.2026 17:01:30.253] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 7.849 milliseconds
+[04sept.2026 17:01:30.254] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[04sept.2026 17:01:30.256] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 1.818 milliseconds
+[04sept.2026 17:01:30.274] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[04sept.2026 17:01:30.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.811 milliseconds
+[04sept.2026 17:01:30.296] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[04sept.2026 17:01:30.318] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 21.05 milliseconds
+[04sept.2026 17:01:30.375] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 56.32 milliseconds
+[04sept.2026 17:01:30.389] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 92.78 milliseconds
+[04sept.2026 17:01:30.391] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[04sept.2026 17:01:30.396] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 4.956 milliseconds
+[04sept.2026 17:01:30.397] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[04sept.2026 17:01:30.401] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 3.082 milliseconds
+[04sept.2026 17:01:30.402] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[04sept.2026 17:01:30.415] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 13.31 milliseconds
+[04sept.2026 17:01:30.418] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[04sept.2026 17:01:30.421] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.client.integration.jei.RecipeResolver
+[04sept.2026 17:01:30.422] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 4.449 milliseconds
+[04sept.2026 17:01:30.423] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[04sept.2026 17:01:30.852] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 427.5 milliseconds
+[04sept.2026 17:01:31.044] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 191.3 milliseconds
+[04sept.2026 17:01:31.145] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 95.08 milliseconds
+[04sept.2026 17:01:31.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 721.8 milliseconds
+[04sept.2026 17:01:31.158] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[04sept.2026 17:01:31.166] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 7.985 milliseconds
+[04sept.2026 17:01:31.172] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[04sept.2026 17:01:31.179] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[04sept.2026 17:01:31.189] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 9.575 milliseconds
+[04sept.2026 17:01:31.192] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[04sept.2026 17:01:31.194] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[04sept.2026 17:01:31.195] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[04sept.2026 17:01:31.273] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 78.30 milliseconds
+[04sept.2026 17:01:31.273] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[04sept.2026 17:01:31.321] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2885 ingredients
+[04sept.2026 17:01:31.995] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2885 ingredients
+[04sept.2026 17:01:31.996] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 722.1 milliseconds
+[04sept.2026 17:01:32.081] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 888.7 milliseconds
+[04sept.2026 17:01:32.082] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 890.3 milliseconds
+[04sept.2026 17:01:32.083] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 911.3 milliseconds
+[04sept.2026 17:01:32.084] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[04sept.2026 17:01:32.087] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
+[04sept.2026 17:01:32.096] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 11.90 milliseconds
+[04sept.2026 17:01:32.096] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.973 seconds
+[04sept.2026 17:01:32.142] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 95 advancements
+[04sept.2026 17:01:34.041] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04sept.2026 17:01:34.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04sept.2026 17:01:34.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:destiny
+[04sept.2026 17:01:34.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04sept.2026 17:01:34.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[04sept.2026 17:01:34.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[04sept.2026 17:01:34.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[04sept.2026 17:01:34.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[04sept.2026 17:01:34.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04sept.2026 17:01:34.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[04sept.2026 17:01:34.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[04sept.2026 17:01:34.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[04sept.2026 17:01:34.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:tollan
+[04sept.2026 17:07:52.302] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3542ms or 70 ticks behind
+[04sept.2026 17:07:57.827] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[04sept.2026 17:08:10.711] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04sept.2026 17:08:10.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04sept.2026 17:08:10.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:destiny
+[04sept.2026 17:08:10.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04sept.2026 17:08:10.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[04sept.2026 17:08:10.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[04sept.2026 17:08:10.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[04sept.2026 17:08:10.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[04sept.2026 17:08:10.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04sept.2026 17:08:10.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[04sept.2026 17:08:10.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[04sept.2026 17:08:10.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[04sept.2026 17:08:10.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:tollan
+[04sept.2026 17:09:25.852] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[04sept.2026 17:09:25.853] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[04sept.2026 17:09:25.856] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[04sept.2026 17:09:25.866] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 11.27 milliseconds
+[04sept.2026 17:09:25.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[04sept.2026 17:09:25.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[04sept.2026 17:09:26.081] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[04sept.2026 17:09:26.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04sept.2026 17:09:26.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04sept.2026 17:09:26.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04sept.2026 17:09:26.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[04sept.2026 17:09:27.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:destiny
+[04sept.2026 17:09:27.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[04sept.2026 17:09:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:cavum_tenebrae
+[04sept.2026 17:09:27.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:lantea
+[04sept.2026 17:09:27.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:athos
+[04sept.2026 17:09:27.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:unitas
+[04sept.2026 17:09:27.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[04sept.2026 17:09:27.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:chulak
+[04sept.2026 17:09:27.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:rima
+[04sept.2026 17:09:27.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:abydos
+[04sept.2026 17:09:27.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/sgjourney:tollan
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (destiny): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (athos): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (unitas): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (rima): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[04sept.2026 17:09:27.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tollan): All chunks are saved
+[04sept.2026 17:09:27.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04sept.2026 17:09:28.913] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

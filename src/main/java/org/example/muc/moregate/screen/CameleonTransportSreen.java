@@ -104,16 +104,16 @@ public class CameleonTransportSreen extends SGJourneyContainerScreen<CameleonTra
                 ComponentHelper.usage("tooltip.sgjourney.transport_rings.networks.usage.communication_crystal"),
                 ComponentHelper.usage("tooltip.sgjourney.transport_rings.networks.usage.control_crystal"));
 
-        this.itemTooltip(graphics, mouseX, mouseY, 80, 35, 0, ComponentHelper.description("tooltip.sgjourney.transport_rings.materialization_crystal_slot.description"));
+        if (!hasItem(9)) this.itemTooltip(graphics, mouseX, mouseY, 80, 35, 0, ComponentHelper.description("tooltip.sgjourney.transport_rings.materialization_crystal_slot.description"));
 
-        this.itemTooltip(graphics, mouseX, mouseY, 80, 17, 1, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 98, 17, 2, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 98, 35, 3, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 98, 53, 4, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 80, 53, 5, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 62, 53, 6, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 62, 35, 7, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
-        this.itemTooltip(graphics, mouseX, mouseY, 62, 17, 8, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(1)) this.itemTooltip(graphics, mouseX, mouseY, 80, 17, 1, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(2)) this.itemTooltip(graphics, mouseX, mouseY, 98, 17, 2, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(3)) this.itemTooltip(graphics, mouseX, mouseY, 98, 35, 3, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(4)) this.itemTooltip(graphics, mouseX, mouseY, 98, 53, 4, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(5)) this.itemTooltip(graphics, mouseX, mouseY, 80, 53, 5, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(6)) this.itemTooltip(graphics, mouseX, mouseY, 62, 53, 6, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(7)) this.itemTooltip(graphics, mouseX, mouseY, 62, 35, 7, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
+        if (!hasItem(8)) this.itemTooltip(graphics, mouseX, mouseY, 62, 17, 8, ComponentHelper.description("tooltip.sgjourney.transport_rings.crystal_slot.description"));
 
         this.itemTooltip(graphics, mouseX, mouseY, 142, 17, 9, ComponentHelper.description("tooltip.sgjourney.transport_rings.energy_slot.description"));
     }
@@ -126,5 +126,17 @@ public class CameleonTransportSreen extends SGJourneyContainerScreen<CameleonTra
     private double energyPerBlock(int transferEfficiency)
     {
         return (double) CommonTransporterConfig.transporter_transport_distance_energy_cost.get() / transferEfficiency;
+    }
+
+    @Override
+    protected boolean hasItem(int slot)
+    {
+        if(slot < 0 || slot > 9)
+            return false;
+
+        if(slot == 9)
+            return !menu.entity.energyItemHandler.getStackInSlot(0).isEmpty();
+        else
+            return !menu.entity.crystalItemHandler.getStackInSlot(slot).isEmpty();
     }
 }

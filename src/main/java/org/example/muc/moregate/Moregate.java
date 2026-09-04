@@ -126,6 +126,7 @@ public class Moregate {
             stack.set(ModDataComponent.ENERGY, 270000000);
             event.accept(stack);
             event.accept(ModItems.CAMELEON_TRANSPORT_RING);
+            event.accept(ModItems.CHISEL);
         }
         else if (event.getTabKey().equals(TabInit.STARGATE_STUFF.getKey())) {
 
@@ -142,7 +143,8 @@ public class Moregate {
                 MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
 
 
-                resourceManager = server.getResourceManager();}
+                resourceManager = server.getResourceManager();
+            }
 
 
             Map<ResourceLocation, Resource> resources =

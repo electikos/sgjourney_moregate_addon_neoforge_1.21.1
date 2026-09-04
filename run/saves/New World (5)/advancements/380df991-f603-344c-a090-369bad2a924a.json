@@ -354,5 +354,11 @@
     },
     "done": true
   },
+  "sgjourney:technology/obtain_pda": {
+    "criteria": {
+      "got_pda": "2026-08-29 19:48:16 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

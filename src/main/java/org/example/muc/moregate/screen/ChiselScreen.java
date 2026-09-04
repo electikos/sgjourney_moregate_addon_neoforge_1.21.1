@@ -3,6 +3,7 @@ package org.example.muc.moregate.screen;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -12,6 +13,7 @@ import net.neoforged.neoforge.network.PacketDistributor;
 import org.example.muc.moregate.Moregate;
 import org.example.muc.moregate.menu.ChiselMenu;
 import org.example.muc.moregate.network.SetCartridgeAddressPayload;
+import org.lwjgl.glfw.GLFW;
 
 import java.util.Arrays;
 
@@ -37,7 +39,8 @@ public class ChiselScreen extends AbstractContainerScreen<ChiselMenu> {
 
         addressInput = new EditBox(font, x + 20, y + 30, 136, 20, Component.literal("Adresse"));
 
-        addressInput.setMaxLength(32);
+        addressInput.setMaxLength(26);
+        addressInput.setFilter(text -> text.matches("[0-9\\s]*"));
 
         addRenderableWidget(addressInput);
 
@@ -54,6 +57,22 @@ public class ChiselScreen extends AbstractContainerScreen<ChiselMenu> {
     }
 
     @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+
+        if (Screen.hasControlDown()) {
+            if (keyCode == GLFW.GLFW_KEY_V || // paste
+                    keyCode == GLFW.GLFW_KEY_C || // copy
+                    keyCode == GLFW.GLFW_KEY_X)   // cut
+            {
+                return true;
+            }
+        }
+
+        return super.keyPressed(keyCode, scanCode, modifiers);
+    }
+
+
+    @Override
     protected void renderBg(GuiGraphics graphics, float partialTick, int mouseX, int mouseY) {
 
     }
@@ -67,6 +86,9 @@ public class ChiselScreen extends AbstractContainerScreen<ChiselMenu> {
     }
 
     private int[] parseAddress(String value){
+        if (value == "" || value == null){
+            return new int[0];
+        }
         return Arrays.stream(value.trim().split("\\s+")).mapToInt(Integer::parseInt).toArray();
     }
 

@@ -8,8 +8,8 @@ license_spdx="LicenseRef-ENCL-1.0"
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-authors = "Electron"
-original_creator = "Aspect_Xero"
+authors = "Electron, aspect_xero or crimson, struxnet"
+original_creator = "Aspect_Xero, struxnet"
 description = '''just adding some stargates variants'''
 
 

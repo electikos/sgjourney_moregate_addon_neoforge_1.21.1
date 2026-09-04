@@ -15,6 +15,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.povstalec.sgjourney.client.SyncedConfig;
 import net.povstalec.sgjourney.common.block_entities.StructureGenEntity;
@@ -48,6 +50,7 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
     public void loadAdditional(CompoundTag tag, HolderLookup.Provider registries)
     {
         super.loadAdditional(tag, registries);
+        symbolInfo().loadFromCompoundTag(tag, POINT_OF_ORIGIN, SYMBOLS);
         if (tag.contains("VariantCrystal")) {variantCrystalHandler.deserializeNBT(registries, tag.getCompound("VariantCrystal"));}
 
 
@@ -116,6 +119,7 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
     protected void saveAdditional(@NotNull CompoundTag tag, HolderLookup.Provider registries)
     {
         super.saveAdditional(tag, registries);
+        symbolInfo().saveToCompoundTag(tag, POINT_OF_ORIGIN, SYMBOLS);
         tag.put("VariantCrystal", variantCrystalHandler.serializeNBT(registries));
     }
 
@@ -150,10 +154,12 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
         return level != null && level.isClientSide() ? SyncedConfig.classicDHDEnergyCapacity : CommonDHDConfig.classic_dhd_energy_buffer_capacity.get();
     }
     private void update() throws IOException {
-        ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
-        ItemStack stack = variantCrystalHandler.getStackInSlot(0);
-        if (!stack.isEmpty()) variant = new DHDVariant(stack.get(ModDataComponent.DHD_VARIANT), resourceManager);
-        else variant = new DHDVariant(null, resourceManager);
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
+            ItemStack stack = variantCrystalHandler.getStackInSlot(0);
+            if (!stack.isEmpty()) variant = new DHDVariant(stack.get(ModDataComponent.DHD_VARIANT), resourceManager);
+            else variant = new DHDVariant(null, resourceManager);
+        }
 
     }
 
@@ -221,5 +227,7 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
         crystalHandler.setStackInSlot(5, new ItemStack(ItemInit.ENERGY_CRYSTAL.get()));
         crystalHandler.setStackInSlot(7, new ItemStack(ItemInit.TRANSFER_CRYSTAL.get()));
     }
+
+
 
 }

@@ -10,6 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.povstalec.sgjourney.common.block_entities.transporter.AbstractTransportRingsEntity;
 import net.povstalec.sgjourney.common.config.CommonTransporterConfig;
@@ -71,10 +73,13 @@ public class CameleonTransportRingBlockEntity extends AbstractTransportRingsEnti
     }
 
     public void update() throws IOException {
-        ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
-        ItemStack stack = variantCrystalHandler.getStackInSlot(0);
-        if (!stack.isEmpty()) this.variant = new TransportRingVariant(stack.get(ModDataComponent.TRASNPORT_RING_VARIANT), resourceManager);
-        else this.variant = new TransportRingVariant(null, resourceManager);
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
+            ItemStack stack = variantCrystalHandler.getStackInSlot(0);
+            if (!stack.isEmpty())
+                this.variant = new TransportRingVariant(stack.get(ModDataComponent.TRASNPORT_RING_VARIANT), resourceManager);
+            else this.variant = new TransportRingVariant(null, resourceManager);
+        }
     }
 
     public TransportRingVariant getVariant(){

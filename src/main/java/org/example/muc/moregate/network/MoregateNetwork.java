@@ -25,14 +25,11 @@ public class MoregateNetwork {
 
                         var player = context.player();
 
-                        if (player == null)
-                            return;
+                        if (player == null) return;
 
                         var level = player.level();
 
-                        if (!(level.getBlockEntity(payload.pos())
-                                instanceof CartoucheEntity cartouche))
-                            return;
+                        if (!(level.getBlockEntity(payload.pos()) instanceof CartoucheEntity cartouche)) return;
 
                         Address.Dimension address = new Address.Dimension(level.dimension(), Optional.empty(), payload.address());
                         cartouche.setAddress(address);
