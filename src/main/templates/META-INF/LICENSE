@@ -1,34 +1,314 @@
-license version Electron non-comercial license 1.0   or  ENCL1
-====================================================
+# Electron Non-Commercial License (ENCL)
 
-Author: Electron
+## Version 2.0
 
------------------------------------
-PERMISSIONS
------------------------------------
-You are allowed to:
-- Modify the code of this mod.
-- Redistribute a modified copy of this mod.
-- Make videos about the mod (except on TikTok).
+**License Author:** [electikos](https://github.com/electikos)
 
------------------------------------
-RESTRICTIONS
------------------------------------
-You are NOT allowed to:
-- Monetize the mod or any modified copy (no selling, ads, paywall, or indirect monetization).
-- Claim the mod or a modified copy as your own creation.
-- Add or distribute NSFW content with this mod or a modified version of the mod.
+Copyright © electikos and the applicable original author(s).
 
------------------------------------
-OBLIGATIONS (if you create a modified copy)
------------------------------------
-If you distribute a modified copy of the mod, you MUST:
-1. Keep the name/pseudo of the author.
-2. Clearly mention in the description which IDE was used to modify the mod.
-3. Include this exact license text with the modified version.
+This license governs the use, modification, redistribution, and other permitted use of the entire work, project, software, and all associated portions distributed under the Electron Non-Commercial License ("ENCL").
 
------------------------------------
-DISCLAIMER
------------------------------------
-This mod is provided "AS IS", without any warranty of any kind.  
-The authors are not responsible for any damages, losses, or issues caused by the use of this mod.
+## 1. Definitions
+
+### 1.1 Work
+
+The **"Work"** means the entire project or work to which this license is applied and all associated portions of it, including but not limited to:
+
+* source and compiled code;
+* assets and media;
+* data and configuration files;
+* documentation and text;
+* project and resource files; and
+* other material distributed as part of or for use with the Work.
+
+A portion of the Work remains subject to this license when copied, extracted, modified, incorporated into another project, or redistributed separately.
+
+Separating, extracting, converting, recompiling, repackaging, renaming, or otherwise changing the form of any portion of the Work does not remove that portion from this license.
+
+### 1.2 Modified Work
+
+A **"Modified Work"** means the Work, or any portion of the Work, that has been modified, adapted, translated, converted, expanded, reduced, or otherwise altered.
+
+### 1.3 Original Author
+
+The **"Original Author"** or **"Original Authors"** means electikos and any other author or creator identified as an original author of the Work or an applicable portion of the Work.
+
+### 1.4 NSFW Content
+
+**"NSFW Content"** means content that is sexually explicit, pornographic, fetishistic, or primarily intended for sexual arousal.
+
+This includes, but is not limited to:
+
+* explicit sexual acts or depictions of sexual activity;
+* exposed genitalia presented in a sexual context;
+* sexualized nudity;
+* pornographic or erotic material; and
+* fetish content presented for sexual gratification.
+
+Non-sexual artistic, educational, medical, or anatomical content is not considered NSFW Content solely because it contains nudity.
+
+### 1.5 Artificial Intelligence and Generative AI
+
+**"Artificial Intelligence" ("AI")** includes machine-learning-based systems used to analyze, generate, transform, modify, reconstruct, or assist in creating content.
+
+**"Generative AI"** means an AI system capable of generating or substantially transforming code, text, images, audio, video, models, data, or other material.
+
+### 1.6 Contribution
+
+A **"Contribution"** means any code, asset, documentation, data, media, patch, modification, pull request, submission, or other material intentionally submitted for inclusion in, improvement of, or use with the Work.
+
+### 1.7 Official Project Hosts
+
+**"Official Project Hosts"** means the public websites, repositories, distribution platforms, project pages, or other public locations identified by the Original Author in the file **`PROJECT_HOSTS.md`** distributed with the Work.
+
+Examples may include an official source repository, CurseForge project page, Modrinth project page, or another officially designated distribution location.
+
+A mirror, fork, repost, archive, or other location not listed in `PROJECT_HOSTS.md` is not an Official Project Host for purposes of this license.
+
+### 1.8 Project Inactivity
+
+**"Project Inactivity"** means a period during which no new version, release, build, package, file, or other update of the Work has been uploaded or published by or on behalf of the Original Author to any Official Project Host listed in `PROJECT_HOSTS.md`.
+
+Project Inactivity is measured from the date of the most recent qualifying upload or publication to an Official Project Host.
+
+Commits, private development activity, announcements, discussions, issue activity, pull requests, or other activity that does not result in an upload or publication of the Work to an Official Project Host do not reset the inactivity period.
+
+An upload or publication to any Official Project Host listed in `PROJECT_HOSTS.md` resets the inactivity period.
+
+---
+
+## 2. Permissions
+
+Subject to the terms of this license, you may:
+
+1. Use the Work for any purpose consistent with this license.
+
+2. Modify the Work or any portion of it.
+
+3. Redistribute the Work or a Modified Work where permitted by this license.
+
+4. Redistribute portions of the Work where such redistribution complies with this license.
+
+5. Incorporate the Work into other projects or works, provided the ENCL-covered portions continue to comply with this license.
+
+Use of the Work is not restricted by medium, platform, format, or method of publication except where that use would otherwise violate this license.
+
+---
+
+## 3. Restrictions
+
+You may **not**:
+
+1. Sell, license for a fee, place behind a paywall, or otherwise require payment for access to:
+
+   * the Work;
+   * any portion of the Work; or
+   * any Modified Work.
+
+2. Require paid access, a subscription, donation, purchase, or other financial contribution as a condition of accessing the Work or a Modified Work.
+
+   Distribution through a third-party hosting, distribution, or discovery platform does **not** violate this restriction merely because the platform:
+
+   * displays advertising;
+   * shares advertising revenue;
+   * operates a creator reward program;
+   * pays creators based on downloads, engagement, or platform activity; or
+   * otherwise provides compensation that is not charged directly to the user as a condition of accessing the Work.
+
+   Platforms such as **CurseForge** and **Modrinth** are examples of permitted distribution platforms under this provision.
+
+3. Claim the Work, an original portion of the Work, or a Modified Work as entirely your own creation.
+
+4. Remove or deliberately conceal attribution identifying an Original Author.
+
+5. Add, include, or distribute NSFW Content as part of the Work or a Modified Work.
+
+6. Use the Work or a Modified Work to promote, encourage, facilitate, or express:
+
+   * discrimination;
+   * hatred;
+   * harassment;
+   * dehumanization;
+   * targeted hostility; or
+   * disparagement
+
+   against an individual or group on the basis of:
+
+   * religion;
+   * sexual orientation;
+   * gender; or
+   * disability.
+
+7. Circumvent this license by separating, extracting, converting, renaming, repackaging, or redistributing a portion of the Work.
+
+8. Use a portion of the Work in another project in a manner that would be prohibited if that portion were distributed separately under this license.
+
+---
+
+## 4. Obligations When Distributing a Modified Work
+
+If you distribute a Modified Work or a modified portion of the Work, you must:
+
+1. Preserve the name or pseudonym of the Original Author(s) and provide appropriate attribution.
+
+2. Clearly state that the Work or applicable portion has been modified.
+
+3. Include a complete copy of this license with the distributed Modified Work.
+
+4. Distribute portions derived from the Work under the **Electron Non-Commercial License (ENCL-2)**.
+
+5. Preserve original author attribution contained in the Work or accompanying materials.
+
+6. Preserve the original `PROJECT_HOSTS.md` file so that the Original Author's Official Project Hosts remain identifiable.
+
+7. Comply with the AI and Generative AI disclosure requirements in Section 5 when applicable.
+
+---
+
+## 5. AI and Generative AI Use Disclosure
+
+AI and Generative AI may be used to modify the Work. However, their use must be disclosed when a Modified Work is distributed.
+
+If AI or Generative AI was used to create, modify, transform, reconstruct, or substantially assist with any portion of the distributed Modified Work, the distributor must clearly disclose:
+
+1. **The affected files or portions of the Work.**
+   Identify the files, assets, components, or other portions that were created or modified with AI assistance.
+
+2. **The AI product or service used.**
+   Identify the application, service, program, or platform through which the AI was used.
+
+3. **The AI model used.**
+   Identify the model, model family, or model version used where that information is known or made available by the product or service.
+
+If the exact model or model version is not made available to the user, the distributor must identify the product or service used and state that the exact model was not provided or could not be determined.
+
+The disclosure must be reasonably accessible with the Modified Work, such as in its documentation, credits, README, changelog, or other accompanying material.
+
+A disclosure may group multiple files together when the same AI product and model were used for the same type of modification, provided the affected files or portions can still be reasonably identified.
+
+The use of AI does not remove or reduce any attribution, licensing, content, or redistribution requirement imposed by this license.
+
+---
+
+## 6. Contributions
+
+By intentionally submitting a Contribution to the Work, you represent that you have the legal right to provide that Contribution under the terms of this section.
+
+You grant **electikos** an **exclusive, perpetual, irrevocable, worldwide, royalty-free license** to the Contribution, including the right to:
+
+* use;
+* reproduce;
+* modify;
+* adapt;
+* translate;
+* create derivative works from;
+* publish;
+* publicly display or perform;
+* distribute;
+* sublicense; and
+* otherwise use or exploit
+
+the Contribution in any form, medium, or manner, whether existing now or developed in the future.
+
+This license includes the right for electikos to incorporate the Contribution into the Work, remove it from the Work, modify it, relicense it, dual-license it, or distribute it under different terms.
+
+The grant under this section survives removal, replacement, or later modification of the Contribution and may not be revoked after the Contribution has been submitted.
+
+Except for the rights granted under this section, ownership of the copyright in the Contribution remains with its contributor unless separately transferred in writing.
+
+---
+
+## 7. Public Forks and Third-Party Republishing
+
+A private fork or private modified copy may be created at any time, subject to this license.
+
+A **public fork**, public redistribution of a fork, or publication of the Work or a Modified Work on a public distribution platform may occur without separate permission from the Original Author.
+
+The inactivity period begins on the date of the most recent qualifying upload or publication of the Work to any Official Project Host listed in `PROJECT_HOSTS.md`.
+
+Any later qualifying upload or publication by or on behalf of the Original Author to any Official Project Host resets the inactivity period to zero.
+
+For purposes of this section, qualifying activity is limited to an actual upload or publication of the Work, a release, build, package, file, or updated version of the Work to an Official Project Host.
+
+The following do **not** reset the inactivity period unless they are accompanied by a qualifying upload or publication:
+
+* source-control commits;
+* branch activity;
+* issue or pull-request activity;
+* announcements;
+* comments or discussions;
+* development screenshots;
+* private builds;
+* private testing; or
+* statements that development is continuing.
+
+Once the required inactivity period has elapsed, a person may publicly fork or republish the Work or a Modified Work, including on platforms such as CurseForge or Modrinth, provided all other requirements of this license are followed.
+
+A permitted public fork or republication must:
+
+1. clearly identify itself as an unofficial fork, continuation, or modified version;
+
+2. not represent itself as the original or official project;
+
+3. preserve attribution to the Original Author(s);
+
+4. preserve the original `PROJECT_HOSTS.md`;
+
+5. provide a reasonable link or reference to the original Work or an Official Project Host when one remains publicly available; and
+
+6. continue to comply with all other terms of this license.
+
+A public fork or republication does not become an Official Project Host merely because it is publicly available.
+
+---
+
+## 8. Non-Commercial Requirement
+
+The Work and Modified Works must remain non-commercial except where this license expressly permits otherwise.
+
+Prohibited monetization includes requiring direct or indirect payment for access to, distribution of, or use of the Work or a Modified Work.
+
+Compensation provided by a third-party hosting or distribution platform, as permitted under Section 3, does not by itself make distribution commercial under this license.
+
+---
+
+## 9. Attribution
+
+Nothing in this license transfers ownership of the original Work or its original portions to another person.
+
+Modification or redistribution does not permit a person to represent themselves as the original creator of material they did not create.
+
+Contributors to a Modified Work may identify themselves and the modifications they created, provided the Original Author(s) remain properly credited.
+
+---
+
+## 10. License Preservation
+
+Any portion of the Work distributed under this license remains subject to this license.
+
+You may not remove, replace, or impose additional terms that would:
+
+* permit commercial use prohibited by this license;
+* remove required attribution;
+* remove the content restrictions of this license; or
+* otherwise reduce the protections provided by this license.
+
+---
+
+## 11. Disclaimer
+
+THE WORK IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR(S) SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK, ITS USE, ITS MODIFICATION, OR ITS DISTRIBUTION.
+
+---
+
+## 12. Acceptance
+
+By using, modifying, redistributing, or contributing to the Work, you agree to comply with this license.
+
+If you do not agree to these terms, you may not exercise the permissions granted by this license or submit Contributions to the Work.
+
+---
+
+**Electron Non-Commercial License — ENCL Version 2.0**
