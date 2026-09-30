@@ -10,7 +10,7 @@
 			unique_symbols = false
 			#Decide if Event Horizons should be shinier
 			shiny_event_horizons = true
-			#If true Wormholes will produce Vortex after a Kawoosh
+			#If true, all Stargates will have a vortex (officially called Strudel) protruding form the back after the Kawoosh finishes
 			enable_vortex = false
 			#The amount of distortion the Stargate Event Horizon will experience
 			# Default: 25

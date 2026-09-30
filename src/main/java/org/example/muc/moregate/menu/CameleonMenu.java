@@ -7,7 +7,7 @@ import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.povstalec.sgjourney.common.block_entities.dhd.ClassicDHDEntity;
 import net.povstalec.sgjourney.common.init.BlockInit;
 import net.povstalec.sgjourney.common.init.MenuInit;
-import net.povstalec.sgjourney.common.menu.AbstractDHDMenu;
+import net.povstalec.sgjourney.common.menu.dhd.AbstractDHDMenu;
 import org.example.muc.moregate.DHDVariant;
 import org.example.muc.moregate.block.ModBlocks;
 import org.example.muc.moregate.blockEntity.CameleonDHDBlockEntity;

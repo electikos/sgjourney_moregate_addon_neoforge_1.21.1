@@ -27,8 +27,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> STARGATE_SHEILD = ITEMS.register("stargate_sheild", () ->
             new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild.png"), () -> 100000));
-    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
-            () -> new ChiselItem(new Item.Properties().stacksTo(1)));
+    /*public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().stacksTo(1))); */
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

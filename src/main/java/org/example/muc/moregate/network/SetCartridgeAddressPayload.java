@@ -12,7 +12,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import net.povstalec.sgjourney.common.block_entities.CartoucheEntity;
+import net.povstalec.sgjourney.common.block_entities.CartoucheBlockEntity;
 import net.povstalec.sgjourney.common.blocks.CartoucheBlock;
 import net.povstalec.sgjourney.common.blockstates.Orientation;
 import net.povstalec.sgjourney.common.sgjourney.Address;
@@ -66,7 +66,7 @@ public record SetCartridgeAddressPayload(
             BlockPos pos = payload.pos();
             BlockEntity blockEntity = level.getBlockEntity(pos);
 
-            if (blockEntity instanceof CartoucheEntity cartouche) {
+            if (blockEntity instanceof CartoucheBlockEntity cartouche) {
 
                 if (cartouche.getHalf() == DoubleBlockHalf.UPPER) {
                     Direction direction = cartouche.getBlockState().getValue(CartoucheBlock.FACING);
@@ -83,7 +83,7 @@ public record SetCartridgeAddressPayload(
                     blockEntity = level.getBlockEntity(pos);
                 }
 
-                if (blockEntity instanceof CartoucheEntity lowerCartouche) {
+                if (blockEntity instanceof CartoucheBlockEntity lowerCartouche) {
                     Address.Immutable address = new Address.Immutable(payload.address());
 
                     cartouche.setAddress(address);

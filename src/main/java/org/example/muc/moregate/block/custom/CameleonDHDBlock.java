@@ -60,10 +60,10 @@ public class CameleonDHDBlock extends CrystalDHDBlock {
     }
 
     @Override
-    protected void use(Level level, BlockPos pos, Player player, BlockHitResult hitResult)
+    protected boolean use(Level level, BlockPos pos, Player player, BlockHitResult hitResult)
     {
         if(level.isClientSide())
-            return;
+            return false;
 
         BlockEntity blockEntity = level.getBlockEntity(pos);
 
@@ -106,6 +106,7 @@ public class CameleonDHDBlock extends CrystalDHDBlock {
                 };
                 NetworkUtils.openMenu((ServerPlayer) player, containerProvider, dhd.getBlockPos());
             }
+            return true;
         }
         else
             throw new IllegalStateException("Our named container provider is missing!");

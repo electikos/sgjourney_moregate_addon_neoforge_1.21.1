@@ -4,7 +4,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
-import net.povstalec.sgjourney.common.block_entities.CartoucheEntity;
+import net.povstalec.sgjourney.common.block_entities.CartoucheBlockEntity;
 import net.povstalec.sgjourney.common.sgjourney.Address;
 import net.povstalec.sgjourney.common.sgjourney.Galaxy;
 
@@ -29,7 +29,7 @@ public class MoregateNetwork {
 
                         var level = player.level();
 
-                        if (!(level.getBlockEntity(payload.pos()) instanceof CartoucheEntity cartouche)) return;
+                        if (!(level.getBlockEntity(payload.pos()) instanceof CartoucheBlockEntity cartouche)) return;
 
                         Address.Dimension address = new Address.Dimension(level.dimension(), Optional.empty(), payload.address());
                         cartouche.setAddress(address);

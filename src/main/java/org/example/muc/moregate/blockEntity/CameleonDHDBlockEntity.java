@@ -18,7 +18,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.items.ItemStackHandler;
-import net.povstalec.sgjourney.client.SyncedConfig;
 import net.povstalec.sgjourney.common.block_entities.StructureGenEntity;
 import net.povstalec.sgjourney.common.block_entities.dhd.AbstractDHDEntity;
 import net.povstalec.sgjourney.common.block_entities.dhd.CrystalDHDEntity;
@@ -26,6 +25,7 @@ import net.povstalec.sgjourney.common.block_entities.stargate.AbstractStargateEn
 import net.povstalec.sgjourney.common.block_entities.tech.EnergyBlockEntity;
 import net.povstalec.sgjourney.common.config.CommonDHDConfig;
 import net.povstalec.sgjourney.common.config.CommonNaquadahGeneratorConfig;
+import net.povstalec.sgjourney.common.config.SyncedConfig;
 import net.povstalec.sgjourney.common.init.ItemInit;
 import net.povstalec.sgjourney.common.init.SoundInit;
 import net.povstalec.sgjourney.common.items.NaquadahFuelRodItem;
@@ -151,7 +151,7 @@ public class CameleonDHDBlockEntity extends CrystalDHDEntity {
 
     @Override
     public long getEnergyCapacity() {
-        return level != null && level.isClientSide() ? SyncedConfig.classicDHDEnergyCapacity : CommonDHDConfig.classic_dhd_energy_buffer_capacity.get();
+        return SyncedConfig.classic_dhd_energy_buffer_capacity.get();
     }
     private void update() throws IOException {
         if (FMLEnvironment.dist == Dist.CLIENT) {

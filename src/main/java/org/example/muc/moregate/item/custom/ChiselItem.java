@@ -9,7 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import net.povstalec.sgjourney.common.block_entities.CartoucheEntity;
+import net.povstalec.sgjourney.common.block_entities.CartoucheBlockEntity;
 import org.example.muc.moregate.menu.ChiselMenu;
 
 public class ChiselItem extends Item {
@@ -23,7 +23,7 @@ public class ChiselItem extends Item {
         BlockPos pos = context.getClickedPos();
 
         if (!level.isClientSide) {
-            if (level.getBlockEntity(pos) instanceof CartoucheEntity cartouche) {
+            if (level.getBlockEntity(pos) instanceof CartoucheBlockEntity cartouche) {
                 ServerPlayer player = (ServerPlayer) context.getPlayer();
 
                 MenuProvider provider = new SimpleMenuProvider((containerId, inventory, p)

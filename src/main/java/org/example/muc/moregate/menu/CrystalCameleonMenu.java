@@ -7,7 +7,7 @@ import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.neoforged.neoforge.items.SlotItemHandler;
 import net.povstalec.sgjourney.common.init.BlockInit;
 import net.povstalec.sgjourney.common.init.MenuInit;
-import net.povstalec.sgjourney.common.menu.DHDCrystalMenu;
+import net.povstalec.sgjourney.common.menu.dhd.DHDCrystalMenu;
 import org.example.muc.moregate.block.ModBlocks;
 import org.example.muc.moregate.blockEntity.CameleonDHDBlockEntity;
 import org.jetbrains.annotations.NotNull;

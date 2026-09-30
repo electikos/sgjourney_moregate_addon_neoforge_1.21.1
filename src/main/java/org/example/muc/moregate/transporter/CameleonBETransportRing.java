@@ -9,9 +9,9 @@ import net.povstalec.sgjourney.common.block_entities.transporter.AbstractTranspo
 import net.povstalec.sgjourney.common.block_entities.transporter.AncientTransportRingsEntity;
 import net.povstalec.sgjourney.common.misc.Conversion;
 import net.povstalec.sgjourney.common.sgjourney.TransporterID;
-import net.povstalec.sgjourney.common.sgjourney.transporter.BlockEntityTransportRings;
-import net.povstalec.sgjourney.common.sgjourney.transporter.GoauldTransportRings;
 import net.povstalec.sgjourney.common.sgjourney.transporter.TransporterType;
+import net.povstalec.sgjourney.common.sgjourney.transporter.transport_rings.BlockEntityTransportRings;
+import net.povstalec.sgjourney.common.sgjourney.transporter.transport_rings.goauld.GoauldTransportRings;
 import org.example.muc.moregate.blockEntity.CameleonTransportRingBlockEntity;
 
 import javax.annotation.Nullable;
