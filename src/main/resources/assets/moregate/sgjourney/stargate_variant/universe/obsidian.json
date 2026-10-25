@@ -1,13 +1,13 @@
 {
   "wormhole_sounds": {
-    "open": "sgjourney:pegasus_wormhole_open",
-    "idle": "sgjourney:pegasus_wormhole_idle",
-    "close": "sgjourney:pegasus_wormhole_close"
+    "open": "moregate:tollan_end_wormhole_open",
+    "idle": "moregate:tollan_end_wormhole_idle",
+    "close": "minecraft:block.respawn_anchor.deplete"
   },
   "wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon.png",
+        "texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -19,7 +19,7 @@
         }
       },
       "back": {
-        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon.png",
+        "texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -36,7 +36,7 @@
     {
       "front":
       {
-        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
         "rows": 20,
         "columns": 1,
         "frames": 20,
@@ -44,7 +44,7 @@
       },
       "back":
       {
-        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
         "rows": 20,
         "columns": 1,
         "frames": 20,
@@ -53,12 +53,13 @@
     }
   },
   "rotation_sounds": {
-    "rotation_sound": "sgjourney:pegasus_ring_spin"
+    "rotation_sound": "sgjourney:universe_ring_spin",
+    "rotation_startup_sound": "sgjourney:universe_dial_start"
   },
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon_shiny.png",
+        "texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -70,7 +71,7 @@
         }
       },
       "back": {
-        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon_shiny.png",
+        "texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -87,7 +88,7 @@
     {
       "front":
       {
-        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
         "rows": 20,
         "columns": 1,
         "frames": 20,
@@ -95,7 +96,7 @@
       },
       "back":
       {
-        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
         "rows": 20,
         "columns": 1,
         "frames": 20,
@@ -104,41 +105,44 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
+    "idle_symbols": {"color":
+    {
       "alpha": 1,
-      "red": 0.11764705882353,
-      "blue": 0.12156862745098,
-      "green": 0.21960784313725
+      "red": 0,
+      "blue": 0,
+      "green": 0
     },
-    "movie_chevron_locking": true,
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.54901960784314,
-      "blue": 0.56470588235294,
-      "green": 1
+      "glow": true
     },
-    "movie_primary_chevron": true,
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.54901960784314,
-      "blue": 0.56470588235294,
-      "green": 1
+    "encoded_symbols": {"color":
+    {
+      "a": 255,
+      "r": 95,
+      "g": 10,
+      "b": 195
     },
-    "symbols_glow": true
+      "glow": true
+    },
+    "engaged_symbols": {"color":
+    {
+      "a": 255,
+      "r": 155,
+      "g": 64,
+      "b": 226
+    },
+      "glow": true
+    }
   },
-  "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_stargate.png",
-  "engaged_texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_stargate_engaged.png",
+  "texture": "moregate:textures/entity/stargate/universe/obsidian/obsidian_stargate.png",
+  "engaged_texture": "moregate:textures/entity/stargate/universe/obsidian/obsidian_stargate_engaged.png",
   "fail_sounds": {
-    "default": "sgjourney:pegasus_dial_fail"
+    "default": "minecraft:block.respawn_anchor.deplete"
   },
   "chevron_engaged_sounds": {
-    "default": "moregate:andromeda_chevron_engage"
+    "default": "minecraft:block.respawn_anchor.charge"
   },
   "chevron_incoming_sounds": {
-    "default": "sgjourney:pegasus_chevron_incoming"
+    "default": "minecraft:block.respawn_anchor.charge"
   }
 }

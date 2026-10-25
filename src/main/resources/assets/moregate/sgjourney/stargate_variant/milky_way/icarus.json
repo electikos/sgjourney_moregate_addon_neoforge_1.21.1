@@ -7,7 +7,7 @@
   "wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_event_horizon.png",
+        "texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -19,7 +19,7 @@
         }
       },
       "back": {
-        "texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_event_horizon.png",
+        "texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_event_horizon.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -64,7 +64,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_event_horizon_shiny.png",
+        "texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_event_horizon_shiny.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -76,7 +76,7 @@
         }
       },
       "back": {
-        "texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_event_horizon_shiny.png",
+        "texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_event_horizon_shiny.png",
         "columns": 1,
         "frames": 32,
         "rows": 32,
@@ -110,24 +110,26 @@
     }
   },
   "symbols": {
-    "permanent_point_of_origin": "moregate:icarus",
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.18823529411765,
-      "blue": 0.24705882352941,
-      "green": 0.1921568627451
+    "permanent_point_of_origin": "sgjourney:icarus",
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.18823529411765,
+        "blue": 0.24705882352941,
+        "green": 0.1921568627451
+      }
     },
-    "permanent_symbols": "sgjourney:milky_way"
+    "permanent_symbols": "sgjourney:galaxy_milky_way"
   },
-  "texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_stargate.png",
-  "engaged_texture": "sgjourney:textures/entity/stargate/milky_way/sg-1/sg-1_stargate_engaged.png",
+  "texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_stargate_back_chevron.png",
+  "engaged_texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_stargate_back_chevron_engaged.png",
   "rotation_sounds": {
     "rotation_sound": "sgjourney:milky_way_ring_spin",
     "rotation_stop_sound": "sgjourney:milky_way_ring_spin_stop",
     "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start"
   },
   "stargate_model": {
-    "raise_back_chevrons": false
+    "raise_back_chevrons": true
   },
   "chevron_engaged_sounds": {
     "default": "sgjourney:milky_way_chevron_engage"

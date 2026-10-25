@@ -113,27 +113,33 @@
   "symbols": {
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.41,
-      "blue": 0.14,
-      "green": 0.21
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.41,
+        "blue": 0.14,
+        "green": 0.21
+      }
     },
-    "movie_chevron_locking": true,
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.88,
-      "blue": 0.27,
-      "green": 0.68
+
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.88,
+        "blue": 0.27,
+        "green": 0.68
+      },
+      "glow": true
     },
-    "movie_primary_chevron": true,
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.88,
-      "blue": 0.27,
-      "green": 0.68
-    },
-    "encoded_symbols_glow": true
+
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.88,
+        "blue": 0.27,
+        "green": 0.68
+      }
+    }
   },
   "texture": "moregate:textures/entity/stargate/milky_way/copper/copper_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/milky_way/copper/copper_stargate_engaged.png",
@@ -143,7 +149,9 @@
     "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start"
   },
   "stargate_model": {
-    "raise_back_chevrons": false
+    "raise_back_chevrons": false,
+    "movie_primary_chevron": true,
+    "movie_chevron_locking": true
   },
   "chevron_engaged_sounds": {
     "primary_chevron": "moregate:create_chevron_encode",

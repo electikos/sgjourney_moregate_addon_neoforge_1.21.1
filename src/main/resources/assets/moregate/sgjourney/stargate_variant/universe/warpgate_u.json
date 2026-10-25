@@ -104,30 +104,36 @@
       }
     }
   },
-  "symbols": {
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
+  "idle_symbols": {
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": false,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.07843137254902,
-      "blue": 0.07843137254902,
-      "green": 0.07843137254902
+    "symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.07843137254902,
+        "blue": 0.07843137254902,
+        "green": 0.07843137254902
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.784,
-      "blue": 1,
-      "green": 0.8627
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.784,
+        "blue": 1,
+        "green": 0.8627
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.45098039215686,
-      "blue": 1,
-      "green": 0.97647058823529
-    },
-    "symbols_glow": false
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.45098039215686,
+        "blue": 1,
+        "green": 0.97647058823529
+      },
+      "glow": true
+    }
   },
   "texture": "moregate:textures/entity/stargate/universe/warpgate_u/warpgate_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/universe/warpgate_u/warp_stargate_engaged.png",

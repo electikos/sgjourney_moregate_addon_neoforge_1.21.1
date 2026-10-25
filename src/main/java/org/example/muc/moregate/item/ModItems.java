@@ -27,6 +27,34 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> STARGATE_SHEILD = ITEMS.register("stargate_sheild", () ->
             new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_GRAY = ITEMS.register("stargate_sheild_gray", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_gray.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_YELLOW = ITEMS.register("stargate_sheild_yellow", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_yellow.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_ORANGE = ITEMS.register("stargate_sheild_orange", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_orange.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_RED = ITEMS.register("stargate_sheild_red", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_red.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_MAGENTA = ITEMS.register("stargate_sheild_magenta", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_magenta.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_PURPLE = ITEMS.register("stargate_sheild_purple", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_purple.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_BLUE = ITEMS.register("stargate_sheild_blue", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_blue.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_LIGHT_BLUE = ITEMS.register("stargate_sheild_lblue", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_lblue.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_CYAN = ITEMS.register("stargate_sheild_cyan", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_cyan.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_LIME = ITEMS.register("stargate_sheild_lime", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_lime.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_GREEN = ITEMS.register("stargate_sheild_green", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_green.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_BLACK = ITEMS.register("stargate_sheild_black", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_black.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_BROWN = ITEMS.register("stargate_sheild_brown", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_brown.png"), () -> 100000));
+    public static final DeferredItem<Item> STARGATE_SHEILD_PINK = ITEMS.register("stargate_sheild_pink", () ->
+            new StargateIrisItem(new Item.Properties(), ResourceLocation.fromNamespaceAndPath("moregate", "textures/entity/stargate/iris/stargate_sheild_ugly.png"), () -> 100000));
     /*public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().stacksTo(1))); */
 

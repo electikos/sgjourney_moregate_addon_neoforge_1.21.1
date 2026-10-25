@@ -110,11 +110,13 @@
     }
   },
   "symbols": {
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.27843137254902,
-      "blue": 0.47843137254902,
-      "green": 0.57647058823529
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.27843137254902,
+        "blue": 0.47843137254902,
+        "green": 0.57647058823529
+      }
     }
   },
   "texture": "moregate:textures/entity/stargate/milky_way/galifrey/galifrey_stargate.png",

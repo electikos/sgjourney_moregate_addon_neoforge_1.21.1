@@ -32,7 +32,7 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId="sgjourney"
 type = "required"
-versionRange="[0.6.49,)"
+versionRange="[0.6.50,)"
 ordering="NONE"
 side="BOTH"
 
@@ -69,6 +69,20 @@ side = "BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "jei"
+type = "optional"
+versionRange = "[0,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "undergarden"
+type = "optional"
+versionRange = "[0,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "ad_astra"
 type = "optional"
 versionRange = "[0,)"
 ordering = "BEFORE"

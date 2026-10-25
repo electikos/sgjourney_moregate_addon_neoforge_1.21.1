@@ -105,29 +105,36 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
+    
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": false,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "green": 1,
-      "blue": 1
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 1,
+        "green": 1,
+        "blue": 1
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.7294,
-      "green": 0.6078,
-      "blue": 1
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.7294,
+        "green": 0.6078,
+        "blue": 1
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.7294,
-      "green": 0.6078,
-      "blue": 1
-    },
-    "symbols_glow": true
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.7294,
+        "green": 0.6078,
+        "blue": 1
+      },
+      "glow": true
+    }
   },
   "texture": "moregate:textures/entity/stargate/universe/quartz_u/quartz_u_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/universe/quartz_u/quartz_u_stargate_engaged.png",

@@ -1,0 +1,6 @@
+{
+  "texture" : "textures/entity/ring/forgotten/forgotten.png",
+  "active_texture" : "textures/entity/ring/forgotten/forgotten_active.png",
+  "ring_texture" : "textures/entity/ring/forgotten/forgotten_ring.png",
+  "ring_active_texture" : "textures/entity/ring/forgotten/forgotten_ring_active.png"
+}

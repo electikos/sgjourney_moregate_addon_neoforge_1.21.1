@@ -104,31 +104,39 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
     "permanent_symbols": "moregate:enchantment",
     "permanent_point_of_origin": "moregate:enchant",
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.32549019607843,
-      "blue": 0.37254901960784,
-      "green": 0.066666666666667
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.32549019607843,
+        "blue": 0.37254901960784,
+        "green": 0.066666666666667
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.96862745098039,
-      "blue": 0.93333333333333,
-      "green": 0.003921568627451
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.96862745098039,
+        "blue": 0.93333333333333,
+        "green": 0.003921568627451
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.96862745098039,
-      "blue": 0.93333333333333,
-      "green": 0.003921568627451
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.96862745098039,
+        "blue": 0.93333333333333,
+        "green": 0.003921568627451
+      },
+      "glow": true
     },
-    "symbols_glow": true
+    "unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
   },
   "texture": "moregate:textures/entity/stargate/pegasus/spatial/spatial_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/pegasus/spatial/spatial_stargate_engaged.png",

@@ -111,14 +111,14 @@
     }
   },
   "symbols": {
-    "movie_chevron_locking": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.7843137254902,
-      "blue": 0.7843137254902,
-      "green": 0.7843137254902
-    },
-    "movie_primary_chevron": true
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.7843137254902,
+        "blue": 0.7843137254902,
+        "green": 0.7843137254902
+      }
+    }
   },
   "texture": "moregate:textures/entity/stargate/milky_way/blockout/blockout_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/milky_way/industrial/industrial_stargate_engaged.png",
@@ -128,7 +128,9 @@
     "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start"
   },
   "stargate_model": {
-    "raise_back_chevrons": false
+    "movie_chevron_locking": true,
+    "raise_back_chevrons": false,
+    "movie_primary_chevron": true
   },
   "chevron_engaged_sounds": {
     "primary_chevron": "moregate:create_chevron_encode",

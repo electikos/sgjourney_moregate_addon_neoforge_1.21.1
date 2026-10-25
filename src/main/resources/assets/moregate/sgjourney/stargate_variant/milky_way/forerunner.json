@@ -110,11 +110,13 @@
     }
   },
   "symbols": {
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.42745098039216,
-      "blue": 0.52156862745098,
-      "green": 0.43137254901961
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.42745098039216,
+        "blue": 0.52156862745098,
+        "green": 0.43137254901961
+      }
     }
   },
   "texture": "moregate:textures/entity/stargate/milky_way/forerunner/forerunner_stargate.png",

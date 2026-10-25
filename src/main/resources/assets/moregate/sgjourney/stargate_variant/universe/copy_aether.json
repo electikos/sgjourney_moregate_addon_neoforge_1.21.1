@@ -98,27 +98,33 @@
     }
   },
   "symbols": {
-    "symbol_color": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "alpha": 1
+    "idle_symbols": {"color":
+      {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 1
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "red": 0.784,
-      "green": 0.784,
-      "blue": 0.784,
-      "alpha": 1.0
+    "encoded_symbols": {"color":
+      {
+        "red": 0.784,
+        "green": 0.784,
+        "blue": 0.784,
+        "alpha": 1.0
+      },
+      "glow":true
     },
-    "engaged_symbol_color": {
-      "red": 0.784,
-      "green": 0.784,
-      "blue": 0.784,
-      "alpha": 1.0
+    "engaged_symbols": {"color":
+      {
+        "red": 0.784,
+        "green": 0.784,
+        "blue": 0.784,
+        "alpha": 1.0
+      },
+      "glow": true
     },
-    "symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engaged_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": false
   },

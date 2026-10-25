@@ -105,29 +105,35 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": false,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0,
-      "blue": 0,
-      "green": 0
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0,
+        "blue": 0,
+        "green": 0
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.784,
-      "blue": 1,
-      "green": 0.8627
+    "encoded_symbols": {"color": 
+      {
+        "alpha": 1,
+        "red": 0.784,
+        "blue": 1,
+        "green": 0.8627
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.99607843137255,
-      "blue": 0.62352941176471,
-      "green": 0.86666666666667
-    },
-    "symbols_glow": false
+    "engaged_symbols": {"color": 
+      {
+        "alpha": 1,
+        "red": 0.99607843137255,
+        "blue": 0.62352941176471,
+        "green": 0.86666666666667
+      },
+      "glow": true
+    }
   },
   "texture": "moregate:textures/entity/stargate/universe/nether/nether_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/universe/nether/nether_stargate_engaged.png",

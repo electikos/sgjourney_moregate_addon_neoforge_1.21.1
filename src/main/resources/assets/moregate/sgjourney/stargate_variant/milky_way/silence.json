@@ -112,29 +112,36 @@
   "symbols": {
     "permanent_symbols": "moregate:enchantment",
     "permanent_point_of_origin": "moregate:enchant",
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.086274509803922,
-      "blue": 0.28627450980392,
-      "green": 0.25882352941176
+    "idle_symbols": {
+      "color":
+      {
+        "alpha": 1,
+        "red": 0.086274509803922,
+        "blue": 0.28627450980392,
+        "green": 0.25882352941176
+      }
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.10196078431373,
-      "blue": 0.78823529411765,
-      "green": 1
+    "encoded_symbols": {
+      "color":
+      {
+        "alpha": 1,
+        "red": 0.10196078431373,
+        "blue": 0.78823529411765,
+        "green": 1
+      },
+      "glow": true
     },
-    "movie_chevron_locking": true,
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.10196078431373,
-      "blue": 0.78823529411765,
-      "green": 1
-    },
-    "movie_primary_chevron": true
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.10196078431373,
+        "blue": 0.78823529411765,
+        "green": 1
+      }
+    }
+
   },
   "texture": "moregate:textures/entity/stargate/milky_way/silence/silence_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/milky_way/silence/silence_stargate_engaged.png",
@@ -144,7 +151,9 @@
     "rotation_startup_sound": "moregate:makeshift_spin_start"
   },
   "stargate_model": {
-    "raise_back_chevrons": false
+    "raise_back_chevrons": false,
+    "movie_chevron_locking": true,
+    "movie_primary_chevron": true
   },
   "chevron_engaged_sounds": {
     "default": "moregate:silence_chevron_encode"

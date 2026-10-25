@@ -152,29 +152,38 @@
     }
   },
   "symbols": {
-    "symbol_color": {
-      "red": 0.2784,
-      "green": 0.5764,
-      "blue": 0.4784,
-      "alpha": 1.0
+    "idle_symbols": {"color":
+      {
+        "red": 0.2784,
+        "green": 0.5764,
+        "blue": 0.4784,
+        "alpha": 1.0
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "red": 0.3333,
-      "green": 0.6667,
-      "blue": 0.6667,
-      "alpha": 1.0
+    "encoded_symbols": {"color":
+      {
+        "red": 0.3333,
+        "green": 0.6667,
+        "blue": 0.6667,
+        "alpha": 1.0
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "red": 0.3333,
-      "green": 0.6667,
-      "blue": 0.6667,
-      "alpha": 1.0
+    "engaged_symbols": {"color":
+      {
+        "red": 0.3333,
+        "green": 0.6667,
+        "blue": 0.6667,
+        "alpha": 1.0
+      },
+      "glow": true
     },
-    "symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engaged_symbols_glow": true,
     "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true
+    "engage_symbols_on_incoming": true,
+
+    "unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
   },
   "stargate_model": {
     "raise_back_chevrons": false

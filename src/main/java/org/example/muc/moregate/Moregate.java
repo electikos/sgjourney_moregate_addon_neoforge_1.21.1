@@ -27,6 +27,8 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
@@ -83,6 +85,7 @@ public class Moregate {
         TransporterRegister.init();
         modEventBus.addListener(MoregateNetwork::register);
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(this::onRegisterCapabilities);
 
 
 
@@ -192,10 +195,28 @@ public class Moregate {
                 }
 
             event.accept(ModItems.STARGATE_SHEILD);
+            event.accept(ModItems.STARGATE_SHEILD_GRAY);
+            event.accept(ModItems.STARGATE_SHEILD_YELLOW);
+            event.accept(ModItems.STARGATE_SHEILD_ORANGE);
+            event.accept(ModItems.STARGATE_SHEILD_RED);
+            event.accept(ModItems.STARGATE_SHEILD_MAGENTA);
+            event.accept(ModItems.STARGATE_SHEILD_PURPLE);
+            event.accept(ModItems.STARGATE_SHEILD_BLUE);
+            event.accept(ModItems.STARGATE_SHEILD_LIGHT_BLUE);
+            event.accept(ModItems.STARGATE_SHEILD_CYAN);
+            event.accept(ModItems.STARGATE_SHEILD_LIME);
+            event.accept(ModItems.STARGATE_SHEILD_GREEN);
+            event.accept(ModItems.STARGATE_SHEILD_BLACK);
+            event.accept(ModItems.STARGATE_SHEILD_BROWN);
+            event.accept(ModItems.STARGATE_SHEILD_PINK);
 
 
         }
 
+    }
+    public void onRegisterCapabilities(RegisterCapabilitiesEvent event){
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.CAMELEON_DHD_BE.get(), (blockEntity, direction) -> blockEntity.getEnergyHandler(direction));
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.CAMELEON_TRANSPORT_RING_BE.get(), (blockEntity, direction) -> blockEntity.getEnergyHandler(direction));
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

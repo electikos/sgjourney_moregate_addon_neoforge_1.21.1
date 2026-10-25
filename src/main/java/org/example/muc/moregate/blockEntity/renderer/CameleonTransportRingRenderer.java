@@ -21,7 +21,7 @@ import java.util.List;
 
 public class CameleonTransportRingRenderer  implements BlockEntityRenderer<CameleonTransportRingBlockEntity> {
 
-    protected final List<TransportRingModel<CameleonTransportRingBlockEntity>> transportRings = new ArrayList<>(5);
+    protected final List<CameleonTransportRingsModel<CameleonTransportRingBlockEntity>> transportRings = new ArrayList<>(5);
 
     private final BlockPos.MutableBlockPos mutablePos = new BlockPos.MutableBlockPos();
 
@@ -51,8 +51,8 @@ public class CameleonTransportRingRenderer  implements BlockEntityRenderer<Camel
             transportRings.clear();
             for(int i = 0; i < 5; i++)
             {
-                if(!blockEntity.isConnected()) transportRings.add(new TransportRingModel<>(variant.getRingTexture(), 36, 5F / 16F, 2.498F, 2F));
-                else transportRings.add(new TransportRingModel<>(variant.getRingActiveTexture(), 36, 5F / 16F, 2.498F, 2F));
+                if(!blockEntity.isConnected()) transportRings.add(new CameleonTransportRingsModel<>(variant.getRingTexture(), 36, 5F / 16F, 2.498F, 2F));
+                else transportRings.add(new CameleonTransportRingsModel<>(variant.getRingActiveTexture(), 36, 5F / 16F, 2.498F, 2F));
             }
             this.ringModelConstructed = true;
             this.wasActive = !this.wasActive;
@@ -65,10 +65,10 @@ public class CameleonTransportRingRenderer  implements BlockEntityRenderer<Camel
         VertexConsumer centralConsumer;
 
         if (!blockEntity.isConnected()) {
-            centralConsumer = buffer.getBuffer(RenderType.entityCutout(blockEntity.getVariant().getTexture()));
+            centralConsumer = buffer.getBuffer(RenderType.entityTranslucent(blockEntity.getVariant().getTexture()));
         }
         else {
-            centralConsumer = buffer.getBuffer(RenderType.entityCutout(blockEntity.getVariant().getActiveTexture()));
+            centralConsumer = buffer.getBuffer(RenderType.entityTranslucent(blockEntity.getVariant().getActiveTexture()));
         }
 
         model.renderToBuffer(stack, centralConsumer, packedLight, packedOverlay, 0xFFFFFFFF);

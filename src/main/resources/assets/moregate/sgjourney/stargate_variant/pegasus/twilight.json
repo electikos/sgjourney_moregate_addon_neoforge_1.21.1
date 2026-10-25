@@ -104,29 +104,37 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.55,
-      "green": 0.55,
-      "blue": 0.55
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.55,
+        "green": 0.55,
+        "blue": 0.55
+      },
+      "glow": true
     },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 0.7176,
-      "green": 0.7176,
-      "blue": 0
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.7176,
+        "green": 0.7176,
+        "blue": 0
+      },
+      "glow": true
     },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.7176,
-      "green": 0.7176,
-      "blue": 0
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.7176,
+        "green": 0.7176,
+        "blue": 0
+      },
+      "glow": true
     },
-    "symbols_glow": true
+    "unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
   },
   "texture": "moregate:textures/entity/stargate/pegasus/twilight/twilight_stargate_alternate.png",
   "engaged_texture": "moregate:textures/entity/stargate/pegasus/twilight/twilight_stargate_engaged.png",

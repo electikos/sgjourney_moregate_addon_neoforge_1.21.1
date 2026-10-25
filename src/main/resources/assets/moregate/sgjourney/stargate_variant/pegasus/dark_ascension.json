@@ -104,33 +104,47 @@
     }
   },
   "symbols": {
-    "engaged_symbols_glow": true,
     "permanent_symbols": "moregate:enchantment",
     "permanent_point_of_origin": "moregate:enchant",
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.34117647058824,
-      "blue": 0,
-      "green": 0
+
+    "symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.34117647058824,
+        "blue": 0,
+        "green": 0
+      },
+      "glow": true
     },
+
+
+    "encoded_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 1,
+        "blue": 0.098039215686275,
+        "green": 0.098039215686275
+      },
+      "glow": true
+    },
+
+    "engaged_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 1,
+        "blue": 0.098039215686275,
+        "green": 0.098039215686275
+      },
+      "glow": true
+    },
+    "unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
+  },
+  "stargate_model": {
     "movie_chevron_locking": true,
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "blue": 0.098039215686275,
-      "green": 0.098039215686275
-    },
-    "movie_primary_chevron": true,
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "blue": 0.098039215686275,
-      "green": 0.098039215686275
-    },
-    "symbols_glow": true
+    "movie_primary_chevron": true
   },
   "texture": "moregate:textures/entity/stargate/pegasus/dark_ascension/dark_ascension_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/pegasus/dark_ascension/dark_ascension_stargate_engaged.png",

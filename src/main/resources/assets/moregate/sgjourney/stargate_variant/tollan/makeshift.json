@@ -101,11 +101,13 @@
     }
   },
   "symbols": {
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.31764705882353,
-      "blue": 0.58039215686275,
-      "green": 0.11764705882353
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 0.31764705882353,
+        "blue": 0.58039215686275,
+        "green": 0.11764705882353
+      }
     }
   },
   "texture": "moregate:textures/entity/stargate/tollan/makeshift/makeshift_stargate.png",

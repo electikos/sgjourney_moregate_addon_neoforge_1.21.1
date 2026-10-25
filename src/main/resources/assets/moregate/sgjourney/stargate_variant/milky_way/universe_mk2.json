@@ -112,29 +112,11 @@
   "symbols": {
     "permanent_symbols": "moregate:universal_custom",
     "permanent_point_of_origin": "sgjourney:universal",
-    "encoded_symbols_glow": true,
     "engage_encoded_symbols": true,
     "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.03921568627451,
-      "blue": 0.03921568627451,
-      "green": 0.03921568627451
-    },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "blue": 1,
-      "green": 1
-    },
-    "movie_chevron_locking": true,
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "blue": 1,
-      "green": 1
-    },
-    "movie_primary_chevron": true
+    "idle_symbols": {"color": {"alpha": 1, "red": 0.03921568627451, "blue": 0.03921568627451, "green": 0.03921568627451}},
+    "encoded_symbols": {"color": {"alpha": 1, "red": 1, "blue": 1, "green": 1}, "glow":  true},
+    "engaged_symbols": {"color": {"alpha": 1, "red": 1, "blue": 1, "green": 1},"glow": true}
   },
   "texture": "moregate:textures/entity/stargate/milky_way/universe_mk2/universe_mk2_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/milky_way/universe_mk2/universe_mk2_stargate_engaged.png",
@@ -144,7 +126,10 @@
     "rotation_startup_sound": "moregate:makeshift_spin_start"
   },
   "stargate_model": {
-    "raise_back_chevrons": false
+    "raise_back_chevrons": false,
+    "movie_primary_chevron": true,
+    "movie_chevron_locking": true
+
   },
   "chevron_engaged_sounds": {
     "default": "sgjourney:movie_chevron_engage"

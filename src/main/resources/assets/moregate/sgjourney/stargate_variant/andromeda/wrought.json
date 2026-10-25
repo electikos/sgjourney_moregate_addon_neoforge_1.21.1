@@ -1,0 +1,155 @@
+{
+  "wormhole_sounds": {
+    "open": "sgjourney:pegasus_wormhole_open",
+    "idle": "sgjourney:pegasus_wormhole_idle",
+    "close": "sgjourney:pegasus_wormhole_close"
+  },
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon.png",
+        "columns": 1,
+        "frames": 32,
+        "rows": 32,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon.png",
+        "columns": 1,
+        "frames": 32,
+        "rows": 32,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      }
+    }
+  },
+  "rotation_sounds": {
+    "rotation_sound": "sgjourney:pegasus_ring_spin"
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 32,
+        "rows": 32,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "moregate:textures/entity/stargate/pegasus/andromeda/andromeda_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 32,
+        "rows": 32,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+    "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+    "disconnect":
+    {
+      "front":
+      {
+        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      },
+      "back":
+      {
+        "texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+        "rows": 20,
+        "columns": 1,
+        "frames": 20,
+        "rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+      }
+    }
+  },
+  "symbols": {
+    "engage_symbols_on_incoming": true,
+    "idle_symbols": {"color":
+    {
+      "a": 255,
+      "r": 120,
+      "g": 120,
+      "b": 120
+    }},
+
+    "encoded_symbols": {"color":
+    {
+      "a": 255,
+      "r": 80,
+      "g": 147,
+      "b": 180
+    },
+      "glow": true
+    },
+
+    "engaged_symbols": {"color":
+    {
+      "a": 255,
+      "r": 139,
+      "g": 245,
+      "b": 245
+    },
+      "glow": true
+    },
+    "unencoded_symbols": { "color": {"r": 120, "g": 120, "b": 120, "a": 120} },
+    "unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+    "unengaged_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
+  },
+  "texture": "moregate:textures/entity/stargate/andromeda/wrought/wrought_stargate.png",
+  "engaged_texture": "moregate:textures/entity/stargate/andromeda/wrought/wrought_stargate_engaged.png",
+  "fail_sounds": {
+    "default": "sgjourney:pegasus_dial_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "moregate:andromeda_chevron_engage"
+  },
+  "chevron_incoming_sounds": {
+    "default": "sgjourney:pegasus_chevron_incoming"
+  },
+  "stargate_model": {
+    "movie_chevron_locking": true,
+    "movie_primary_chevron": true
+  }
+}

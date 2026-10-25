@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "moregate:stargate_shield"
+    }
+  ],
+  "result": {
+    "id": "moregate:stargate_sheild",
+    "count": 1
+  }
+}

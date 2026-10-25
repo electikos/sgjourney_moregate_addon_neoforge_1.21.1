@@ -101,14 +101,14 @@
     }
   },
   "symbols": {
-    "movie_chevron_locking": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "blue": 1,
-      "green": 1
-    },
-    "movie_primary_chevron": true
+    "idle_symbols": {"color":
+      {
+        "alpha": 1,
+        "red": 1,
+        "blue": 1,
+        "green": 1
+      }
+    }
   },
   "texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_stargate.png",
   "engaged_texture": "moregate:textures/entity/stargate/tollan/tollan_end/tollan_end_stargate_engaged.png",
